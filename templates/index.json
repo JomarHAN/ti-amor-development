@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "9a6b1549-9438-4070-bf55-9338e65e7ccd": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17153708130625__9a6b1549-9438-4070-bf55-9338e65e7ccd-16703824525463dc2e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.Wedding_Picture.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Order Now",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17153708130625__9a6b1549-9438-4070-bf55-9338e65e7ccd-16703824525463dc2e-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.crystal-square-lifestyle.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Order Now",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "dd658e5c-ec22-4ca7-9420-83fb77db2c11": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-2272.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Order Now",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "34ecbb2d-1f29-4e28-97a4-770ffe6a714f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.Lifestyle_Picture_2.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Order Now",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "fdb7eb93-10bc-49f0-8d81-44337a502024": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.Close_up_lifestyle_picture.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Order Now",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17153708130625__9a6b1549-9438-4070-bf55-9338e65e7ccd-16703824525463dc2e-0",
+        "template--17153708130625__9a6b1549-9438-4070-bf55-9338e65e7ccd-16703824525463dc2e-1",
+        "dd658e5c-ec22-4ca7-9420-83fb77db2c11",
+        "34ecbb2d-1f29-4e28-97a4-770ffe6a714f",
+        "fdb7eb93-10bc-49f0-8d81-44337a502024"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1d450cfd-de53-45e7-85f5-beb2353553f8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17153708130625__1d450cfd-de53-45e7-85f5-beb2353553f8-16705553672dcb0f4e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "agate"
+          }
+        },
+        "template--17153708130625__1d450cfd-de53-45e7-85f5-beb2353553f8-16705553672dcb0f4e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "quartz"
+          }
+        },
+        "template--17153708130625__1d450cfd-de53-45e7-85f5-beb2353553f8-16705553672dcb0f4e-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "special-quartz"
+          }
+        }
+      },
+      "block_order": [
+        "template--17153708130625__1d450cfd-de53-45e7-85f5-beb2353553f8-16705553672dcb0f4e-0",
+        "template--17153708130625__1d450cfd-de53-45e7-85f5-beb2353553f8-16705553672dcb0f4e-1",
+        "template--17153708130625__1d450cfd-de53-45e7-85f5-beb2353553f8-16705553672dcb0f4e-2"
+      ],
+      "settings": {
+        "title": "Our Agates",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-2",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "62c13746-80e7-47cc-a2c6-10c12dfe167c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17153708130625__62c13746-80e7-47cc-a2c6-10c12dfe167c-16708128451c7dd590-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading_size": "h1"
+          }
+        },
+        "template--17153708130625__62c13746-80e7-47cc-a2c6-10c12dfe167c-16708128451c7dd590-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Presentes Amor means “Gifts of Love” in Portuguese; the native language of Brazil where our gemstone is exclusively mined. <\/p><p>Brazil is home to the most desirable agates in the world. Natural inclusions and structures form into our beautiful gemstones portraying their allure. <\/p><p>Our intention is to provide you with breathtaking gifts for your unforgettable experience. Hand-crafted and naturally polished; quality is the heart of our production. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17153708130625__62c13746-80e7-47cc-a2c6-10c12dfe167c-16708128451c7dd590-0",
+        "template--17153708130625__62c13746-80e7-47cc-a2c6-10c12dfe167c-16708128451c7dd590-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-us.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "9a6b1549-9438-4070-bf55-9338e65e7ccd",
+    "1d450cfd-de53-45e7-85f5-beb2353553f8",
+    "62c13746-80e7-47cc-a2c6-10c12dfe167c"
+  ]
+}
