@@ -2957,3 +2957,14 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+
+/* Customized sections */
+.banner__buttons-customized{
+  background-color: #000000ad;
+}
+
+.banner__buttons-customized:hover{
+  background-color: black;
+}
+
