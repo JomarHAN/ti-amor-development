@@ -136,27 +136,6 @@ function onKeyUpEscape(event) {
   summaryElement.focus();
 }
 
-class QuantityInput extends HTMLElement {
-  constructor() {
-    super();
-    this.input = this.querySelector('input');
-    this.changeEvent = new Event('change', { bubbles: true })
-
-    this.querySelectorAll('button').forEach(
-      (button) => button.addEventListener('click', this.onButtonClick.bind(this))
-    );
-  }
-
-  onButtonClick(event) {
-    event.preventDefault();
-    const previousValue = this.input.value;
-
-    event.target.name === 'plus' ? this.input.stepUp(50) : this.input.stepDown(50);
-    if (previousValue !== this.input.value) this.input.dispatchEvent(this.changeEvent);
-  }
-}
-
-customElements.define('quantity-input', QuantityInput);
 
 function debounce(fn, wait) {
   let t;
@@ -773,6 +752,7 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+      this.setGlobalVariant();
     }
   }
 
@@ -889,6 +869,10 @@ class VariantSelects extends HTMLElement {
     this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
     return this.variantData;
   }
+
+  setGlobalVariant() {
+    console.log(this.currentVariant);
+  }
 }
 
 customElements.define('variant-selects', VariantSelects);
@@ -947,3 +931,31 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+
+
+class QuantityInput extends HTMLElement {
+  constructor() {
+    super();
+    this.input = this.querySelector('input');
+    this.changeEvent = new Event('change', { bubbles: true })
+
+    this.querySelectorAll('button').forEach(
+      (button) => button.addEventListener('click', this.onButtonClick.bind(this))
+    );
+  }
+
+  onButtonClick(event) {
+    event.preventDefault();
+    const previousValue = this.input.value;
+
+    event.target.name === 'plus' ? this.input.stepUp() : this.input.stepDown();
+    if (previousValue !== this.input.value) this.input.dispatchEvent(this.changeEvent);
+  }
+}
+
+customElements.define('quantity-input', QuantityInput);
+
+
+// Customized sections
+
