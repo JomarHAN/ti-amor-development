@@ -24,15 +24,6 @@
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
-  {% javascript %}
-      var buttons = document.getElementsByClassName('quantity__button')
-      for (let i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', () => {
-          console.log(sessionStorage.getItem("quantity"));
-        })
-      }
-  {% endjavascript %}
-
 
   {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
   {%- if first_3d_model -%}
