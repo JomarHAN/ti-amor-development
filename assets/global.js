@@ -752,7 +752,6 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
-      this.setGlobalVariant();
     }
   }
 
@@ -868,10 +867,6 @@ class VariantSelects extends HTMLElement {
   getVariantData() {
     this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
     return this.variantData;
-  }
-
-  setGlobalVariant() {
-    console.log(this.currentVariant);
   }
 }
 
