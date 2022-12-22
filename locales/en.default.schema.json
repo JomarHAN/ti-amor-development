@@ -2565,9 +2565,6 @@
         "show_text_below": {
           "label": "Show content below images on mobile"
         },
-        "show_slideshow_controls": {
-          "label": "Show Slideshow Controls"
-        },
         "accessibility": {
           "content": "Accessibility",
           "label": "Slideshow description",
