@@ -20,12 +20,6 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -41,16 +35,23 @@
           "type": "description",
           "settings": {
           }
+        },
+        "114ebedc-4ead-44f6-bbdb-370f49ef45b4": {
+          "type": "popup",
+          "settings": {
+            "text": "Quantity List",
+            "page": "quantity-list"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "price",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description"
+        "description",
+        "114ebedc-4ead-44f6-bbdb-370f49ef45b4"
       ],
       "settings": {
         "enable_sticky_info": true,

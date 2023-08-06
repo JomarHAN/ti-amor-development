@@ -301,6 +301,23 @@
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">
                 {{- block.settings.text -}}
               </a>
+
+
+          {%- comment -%} PRICE-TABLE BUTTON SECTION {%- endcomment -%}
+
+            {%- when 'price-table-popup' -%}
+              <modal-opener class="product-popup-modal__opener no-js-hidden quick-add-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
+                <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">
+                  {{ block.settings.text | default: block.settings.page.title }}
+                </button>
+              </modal-opener>
+              <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">
+                {{- block.settings.text -}}
+              </a>
+
+
+
+
             {%- when 'share' -%}
               <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
                 <button class="share-button__button hidden">
@@ -785,6 +802,29 @@
     </modal-dialog>
   {%- endfor -%}
 
+  {%- comment -%} PRICE-TABLE POPUP {%- endcomment -%}
+  {% assign popups = section.blocks | where: "type", "price-table-popup" %}
+  {%- assign priceList = product.metafields.pricing -%}
+  {%- for block in popups -%}
+    <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
+      <div role="dialog" aria-label="{{ block.settings.text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
+        <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">
+          {% render 'icon-close' %}
+        </button>
+        <div class="product-popup-modal__content-info">
+          <h1 class="h2">Price Table</h1>
+
+
+        <script>
+            console.log({{priceList | json}})
+          </script> 
+
+
+        </div>
+      </div>
+    </modal-dialog>
+  {%- endfor -%}
+
   {%- if product.media.size > 0 -%}
     <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
@@ -1164,6 +1204,17 @@
             "id": "page",
             "type": "page",
             "label": "t:sections.main-product.blocks.popup.settings.page.label"
+          }
+        ]
+      }, {
+        "type": "price-table-popup",
+        "name": "Price Table Popup",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text",
+            "default": "Pop-up link text",
+            "label": "t:sections.main-product.blocks.popup.settings.link_label.label"
           }
         ]
       }, {
