@@ -43,11 +43,6 @@
       "view": "Winkelwagen bekijken ({{ count }})",
       "item_added": "Artikel toegevoegd aan winkelwagen",
       "view_empty_cart": "Winkelwagen bekijken"
-      "search": "Zoeken"
-    },
-    "cart": {
-      "view": "Winkelwagen bekijken ({{ count }})",
-      "item_added": "Artikel toegevoegd aan winkelwagen"
     },
     "share": {
       "copy_to_clipboard": "Link kopiëren",
@@ -114,7 +109,6 @@
       "add_to_cart": "Aan winkelwagen toevoegen",
       "description": "Beschrijving",
       "on_sale": "Aanbieding",
-      "product_variants": "Productvarianten",
       "quantity": {
         "label": "Aantal",
         "input_label": "Aantal voor {{ product }}",
@@ -125,7 +119,6 @@
         "multiples_of": "Stappen van {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> in winkelwagen",
         "note": "Hoeveelheidsregels bekijken"
-        "decrease": "Aantal verlagen voor {{ product }}"
       },
       "price": {
         "from_price_html": "Vanaf {{ price }}",
@@ -181,7 +174,6 @@
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "product_variants": "Productvarianten"
-      "choose_product_options": "Opties kiezen voor {{ product_name }}"
     },
     "modal": {
       "label": "Mediagalerij"
@@ -246,7 +238,6 @@
       },
       "suggestions": "Suggesties",
       "pages": "Pagina's"
-      }
     },
     "cart": {
       "cart": "Winkelwagen"
@@ -281,8 +272,6 @@
       "title": "Je winkelwagen",
       "caption": "Artikelen in winkelwagen",
       "remove_title": "{{ title }} verwijderen",
-      "subtotal": "Subtotaal",
-      "new_subtotal": "Nieuw subtotaal",
       "note": "Speciale instructies voor bestelling",
       "checkout": "Afrekenen",
       "empty": "Je winkelwagen is leeg",
@@ -292,10 +281,6 @@
       "taxes_included_but_shipping_at_checkout": "Inclusief belasting; verzendkosten en kortingen worden bij de checkout berekend",
       "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\">Verzending<\/a> en kortingen worden bij de checkout berekend.",
       "taxes_and_shipping_at_checkout": "Belastingen, kortingen en verzending worden bij de checkout berekend",
-      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\">verzendkosten<\/a> worden berekend bij de checkout",
-      "taxes_included_but_shipping_at_checkout": "Belasting inbegrepen en verzendkosten worden berekend bij de checkout",
-      "taxes_included_and_shipping_policy_html": "Inclusief btw. <a href=\"{{ link }}\">Verzendkosten<\/a> worden berekend bij de checkout.",
-      "taxes_and_shipping_at_checkout": "Belastingen en verzendkosten worden berekend bij de checkout",
       "headings": {
         "product": "Product",
         "price": "Prijs",
@@ -310,7 +295,6 @@
       },
       "estimated_total": "Geschat totaal",
       "new_estimated_total": "Nieuw geschat totaal"
-      }
     },
     "footer": {
       "payment": "Betaalmethoden"
@@ -490,7 +474,6 @@
       "subtotal": "Subtotaal",
       "total_duties": "Douanerechten",
       "total_refunded": "Terugbetaald"
-      "total_duties": "Douanerechten"
     }
   },
   "gift_cards": {
@@ -523,17 +506,6 @@
       "send_on_label": "Verzenden op (optioneel)",
       "expanded": "Formulier voor ontvanger cadeaubon uitgevouwen",
       "collapsed": "Formulier voor ontvanger cadeaubon ingeklapt"
-      "title": "Hier is je cadeaubon ter waarde van {{ value }} voor {{ shop }}!",
-      "subtext": "Je cadeaubon",
-      "gift_card_code": "Cadeaubon code",
-      "shop_link": "Terugkeren naar winkel",
-      "remaining_html": "Resterend bedrag: {{ balance }}",
-      "add_to_apple_wallet": "Aan Apple Wallet toevoegen",
-      "qr_image_alt": "QR-code — scannen om cadeaubon te verzilveren",
-      "copy_code": "Code kopiëren",
-      "expired": "Verlopen",
-      "copy_code_success": "Code gekopieerd",
-      "print_gift_card": "Afdrukken"
     }
   }
 }

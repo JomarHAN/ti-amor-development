@@ -43,11 +43,6 @@
       "view": "Näytä ostoskori ({{ count }})",
       "item_added": "Tuote lisätty ostoskoriisi",
       "view_empty_cart": "Katso ostoskori"
-      "search": "Hae"
-    },
-    "cart": {
-      "view": "Näytä ostoskori ({{ count }})",
-      "item_added": "Tuote lisätty ostoskoriisi"
     },
     "share": {
       "copy_to_clipboard": "Kopioi linkki",
@@ -114,7 +109,6 @@
       "add_to_cart": "Lisää ostoskoriin",
       "description": "Kuvaus",
       "on_sale": "Alennusmyynti",
-      "product_variants": "Tuoteversiot",
       "quantity": {
         "label": "Määrä",
         "input_label": "Tuotteen {{ product }} määrä",
@@ -125,13 +119,11 @@
         "multiples_of": "Lisäysten koko: {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> ostoskorissa",
         "note": "Katso määräsäännöt"
-        "decrease": "Vähennä tuotteen {{ product }} määrää"
       },
       "price": {
         "from_price_html": "Alkaen {{ price }}",
         "regular_price": "Normaalihinta",
         "sale_price": "Alennushinta",
-        "sale_price": "Myyntihinta",
         "unit_price": "Yksikköhinta"
       },
       "share": "Jaa tämä tuote",
@@ -182,7 +174,6 @@
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "product_variants": "Tuoteversiot"
-      "choose_product_options": "Valitse vaihtoehtoja tuotteelle {{ product_name }}"
     },
     "modal": {
       "label": "Mediagalleria"
@@ -281,8 +272,6 @@
       "title": "Ostoskorisi",
       "caption": "Ostoskorin tuotteet",
       "remove_title": "Poista {{ title }}",
-      "subtotal": "Välisumma",
-      "new_subtotal": "Uusi välisumma",
       "note": "Tilauksen erityisohjeet",
       "checkout": "Kassa",
       "empty": "Ostoskorisi on tyhjä",
@@ -292,10 +281,6 @@
       "taxes_included_but_shipping_at_checkout": "Sisältää veron; toimituskulut ja alennukset lasketaan kassalla",
       "taxes_included_and_shipping_policy_html": "Sisältää veron. <a href=\"{{ link }}\">Toimituskulut<\/a> ja alennukset lasketaan kassalla.",
       "taxes_and_shipping_at_checkout": "Verot, alennukset ja toimituskulut lasketaan kassalla",
-      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\">toimituskulut<\/a> lasketaan kassalla",
-      "taxes_included_but_shipping_at_checkout": "Sisältää veron, toimituskulut lasketaan kassalla",
-      "taxes_included_and_shipping_policy_html": "Sisältää veron. <a href=\"{{ link }}\">Toimituskulut<\/a> lasketaan kassalla.",
-      "taxes_and_shipping_at_checkout": "Verot ja toimituskulut lasketaan kassalla",
       "headings": {
         "product": "Tuote",
         "price": "Hinta",
@@ -310,7 +295,6 @@
       },
       "estimated_total": "Arvioitu kokonaishinta",
       "new_estimated_total": "Uusi arvioitu kokonaishinta"
-      }
     },
     "footer": {
       "payment": "Maksutavat"
@@ -448,8 +432,6 @@
     "recover_password": {
       "title": "Nollaa salasanasi",
       "subtext": "Lähetämme sinulle sähköpostiviestin salasanan nollaamiseksi",
-      "title": "Palauta salasanasi",
-      "subtext": "Lähetämme sinulle sähköpostiviestin salasanan palauttamiseksi",
       "success": "Olemme lähettäneet sinulle sähköpostiviestin, jossa on salasanan päivityslinkki."
     },
     "register": {
@@ -462,7 +444,6 @@
     },
     "reset_password": {
       "title": "Nollaa tilin salasana",
-      "title": "Palauta tilin salasana",
       "subtext": "Syötä uusi salasana",
       "password": "Salasana",
       "password_confirm": "Vahvista salasana",
@@ -493,7 +474,6 @@
       "subtotal": "Välisumma",
       "total_duties": "Tullit",
       "total_refunded": "Maksu palautettu"
-      "total_duties": "Tullit"
     }
   },
   "gift_cards": {
@@ -526,17 +506,6 @@
       "send_on_label": "Lähetä (valinnainen)",
       "expanded": "Lahjakortin saajalomake laajennettuna",
       "collapsed": "Lahjakortin saajalomake pienennettynä"
-      "title": "Tässä on lahjakorttisi ({{ value }}) kauppaan {{ shop }}!",
-      "subtext": "Lahjakorttisi",
-      "gift_card_code": "Lahjakortin koodi",
-      "shop_link": "Jatka ostoksia",
-      "remaining_html": "Jäljellä {{ balance }}",
-      "add_to_apple_wallet": "Lisää Apple Walletiin",
-      "qr_image_alt": "QR-koodi – lunasta lahjakortti skannaamalla",
-      "copy_code": "Kopioi koodi",
-      "expired": "Vanhentunut",
-      "copy_code_success": "Koodin kopioiminen onnistui",
-      "print_gift_card": "Tulosta"
     }
   }
 }

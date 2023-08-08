@@ -43,11 +43,6 @@
       "view": "Xem giỏ hàng ({{ count }})",
       "item_added": "Mặt hàng đã thêm vào giỏ hàng",
       "view_empty_cart": "Xem giỏ hàng"
-      "search": "Tìm kiếm"
-    },
-    "cart": {
-      "view": "Xem giỏ hàng của tôi ({{ count }})",
-      "item_added": "Mặt hàng đã thêm vào giỏ hàng"
     },
     "share": {
       "copy_to_clipboard": "Sao chép liên kết",
@@ -125,13 +120,11 @@
         "multiples_of": "Số lượng gia tăng {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> trong giỏ hàng",
         "note": "Xem quy tắc số lượng"
-        "decrease": "Giảm số lượng của {{ product }}"
       },
       "price": {
         "from_price_html": "Từ {{ price }}",
         "regular_price": "Giá thông thường",
         "sale_price": "Giá ưu đãi",
-        "sale_price": "Giá bán",
         "unit_price": "Đơn giá"
       },
       "share": "Chia sẻ sản phẩm này",
@@ -141,7 +134,6 @@
       "video_exit_message": "{{ title }} mở video toàn màn hình ở cùng một cửa sổ.",
       "xr_button": "Xem tại không gian của bạn",
       "xr_button_label": "Xem tại không gian của bạn, tải mặt hàng trong cửa sổ thực tế ảo tăng cường",
-      "xr_button_label": "Xem tại không gian của bạn, tải mặt hàng trong cửa sổ thực tế tăng cường",
       "pickup_availability": {
         "view_store_info": "Xem thông tin cửa hàng",
         "check_other_stores": "Kiểm tra tình trạng còn hàng tại các cửa hàng khác",
@@ -182,7 +174,6 @@
         "price_at_each": "với giá {{ price }}\/chiếc",
         "price_range": "{{ minimum }} - {{ maximum }}"
       }
-      "choose_product_options": "Chọn tùy chọn cho {{ product_name }}"
     },
     "modal": {
       "label": "Thư viện phương tiện"
@@ -247,7 +238,6 @@
       },
       "suggestions": "Gợi ý",
       "pages": "Trang"
-      }
     },
     "cart": {
       "cart": "Giỏ hàng"
@@ -282,8 +272,6 @@
       "title": "Giỏ hàng của bạn",
       "caption": "Các mặt hàng trong giỏ hàng",
       "remove_title": "Xóa {{ title }}",
-      "subtotal": "Tổng phụ",
-      "new_subtotal": "Tổng phụ mới",
       "note": "Hướng dẫn đặc biệt của đơn hàng",
       "checkout": "Thanh toán",
       "empty": "Giỏ hàng của bạn đang trống",
@@ -293,10 +281,6 @@
       "taxes_included_but_shipping_at_checkout": "Đã bao gồm thuế, còn phí vận chuyển và ưu đãi giảm giá được tính khi thanh toán",
       "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"{{ link }}\">Phí vận chuyển<\/a> và ưu đãi giảm giá được tính khi thanh toán.",
       "taxes_and_shipping_at_checkout": "Thuế, ưu đãi giảm giá và phí vận chuyển được tính khi thanh toán",
-      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"{{ link }}\">phí vận chuyển<\/a> được tính khi thanh toán",
-      "taxes_included_but_shipping_at_checkout": "Đã bao gồm thuế và phí vận chuyển được tính khi thanh toán",
-      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"{{ link }}\">Phí vận chuyển<\/a> được tính khi thanh toán.",
-      "taxes_and_shipping_at_checkout": "Thuế và phí vận chuyển được tính khi thanh toán",
       "headings": {
         "product": "Sản phẩm",
         "price": "Giá",
@@ -311,7 +295,6 @@
       },
       "estimated_total": "Tổng số tiền ước tính",
       "new_estimated_total": "Tổng số tiền ước tính mới"
-      }
     },
     "footer": {
       "payment": "Phương thức thanh toán"
@@ -440,7 +423,6 @@
       "title": "Lịch sử đặt hàng",
       "order_number": "Đơn hàng",
       "order_number_link": "Mã đơn hàng {{ number }}",
-      "order_number_link": "Đơn hàng số {{ number }}",
       "date": "Ngày",
       "payment_status": "Trạng thái thanh toán",
       "fulfillment_status": "Trạng thái thực hiện",
@@ -492,7 +474,6 @@
       "subtotal": "Tổng phụ",
       "total_duties": "Thuế hải quan",
       "total_refunded": "Đã hoàn tiền"
-      "total_duties": "Thuế hải quan"
     }
   },
   "gift_cards": {
@@ -525,17 +506,6 @@
       "send_on_label": "Ngày gửi (tùy chọn)",
       "expanded": "Đã mở rộng biểu mẫu người nhận thẻ quà tặng",
       "collapsed": "Đã thu nhỏ biểu mẫu người nhận thẻ quà tặng"
-      "title": "Đây là thẻ quà tặng {{ value }} của bạn cho {{ shop }}!",
-      "subtext": "Thẻ quà tặng của bạn",
-      "gift_card_code": "Mã thẻ quà tặng",
-      "shop_link": "Tiếp tục mua sắm",
-      "remaining_html": "Còn lại {{ balance }}",
-      "add_to_apple_wallet": "Thêm vào Apple Wallet",
-      "qr_image_alt": "Mã QR — quét để đổi thẻ quà tặng",
-      "copy_code": "Sao chép mã",
-      "expired": "Đã hết hạn",
-      "copy_code_success": "Đã sao chép mã thành công",
-      "print_gift_card": "In"
     }
   }
 }

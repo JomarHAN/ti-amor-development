@@ -43,11 +43,6 @@
       "view": "檢視購物車 ({{ count }})",
       "item_added": "商品已加入購物車",
       "view_empty_cart": "檢視購物車"
-      "search": "搜尋"
-    },
-    "cart": {
-      "view": "檢視我的購物車 ({{ count }})",
-      "item_added": "商品已加入購物車"
     },
     "share": {
       "copy_to_clipboard": "複製連結",
@@ -114,7 +109,6 @@
       "add_to_cart": "加入購物車",
       "description": "說明",
       "on_sale": "特價",
-      "on_sale": "銷售額",
       "product_variants": "產品子類",
       "quantity": {
         "label": "數量",
@@ -126,7 +120,6 @@
         "multiples_of": "{{ quantity }} 的倍數",
         "in_cart_html": "購物車中有 <span class=\"quantity-cart\">{{ quantity }}<\/span> 個",
         "note": "檢視數量規則"
-        "decrease": "{{ product }} 數量減少"
       },
       "price": {
         "from_price_html": "從 {{ price }} 起",
@@ -181,7 +174,6 @@
         "price_at_each": "{{ price }}\/每項",
         "price_range": "{{ minimum }} - {{ maximum }}"
       }
-      "choose_product_options": "選擇 {{ product_name }} 的選項"
     },
     "modal": {
       "label": "媒體庫"
@@ -246,7 +238,6 @@
       },
       "suggestions": "建議",
       "pages": "頁面"
-      }
     },
     "cart": {
       "cart": "購物車"
@@ -281,8 +272,6 @@
       "title": "您的購物車",
       "caption": "購物車商品",
       "remove_title": "移除 {{ title }}",
-      "subtotal": "小計",
-      "new_subtotal": "新小計",
       "note": "訂單特別指示",
       "checkout": "結帳",
       "empty": "您的購物車是空的",
@@ -292,10 +281,6 @@
       "taxes_included_but_shipping_at_checkout": "內含稅金，結帳時計算運費和折扣",
       "taxes_included_and_shipping_policy_html": "內含稅金。結帳時計算<a href=\"{{ link }}\">運費<\/a>和折扣。",
       "taxes_and_shipping_at_checkout": "結帳時計算稅金、折扣和運費",
-      "taxes_and_shipping_policy_at_checkout_html": "結帳時計算稅金和<a href=\"{{ link }}\">運費<\/a>",
-      "taxes_included_but_shipping_at_checkout": "內含稅金，結帳時計算運費",
-      "taxes_included_and_shipping_policy_html": "內含稅金。結帳時計算<a href=\"{{ link }}\">運費<\/a>。",
-      "taxes_and_shipping_at_checkout": "結帳時計算稅金和運費",
       "headings": {
         "product": "產品",
         "price": "價格",
@@ -310,7 +295,6 @@
       },
       "estimated_total": "估計總金額",
       "new_estimated_total": "新的估計總金額"
-      }
     },
     "footer": {
       "payment": "付款方式"
@@ -490,7 +474,6 @@
       "subtotal": "小計",
       "total_duties": "關稅",
       "total_refunded": "已退款"
-      "total_duties": "關稅"
     }
   },
   "gift_cards": {
@@ -523,17 +506,6 @@
       "send_on_label": "發送時間 (選填)",
       "expanded": "禮品卡收件人表單已展開",
       "collapsed": "禮品卡收件人表單已收合"
-      "title": "這是您在 {{ shop }} 價值 {{ value }} 的禮品卡！",
-      "subtext": "您的禮品卡",
-      "gift_card_code": "禮品卡代碼",
-      "shop_link": "繼續購物",
-      "remaining_html": "餘額 {{ balance }}",
-      "add_to_apple_wallet": "加入 Apple 錢包",
-      "qr_image_alt": "QR 碼 — 掃描以兌換禮品卡",
-      "copy_code": "複製程式碼",
-      "expired": "已到期",
-      "copy_code_success": "代碼已成功複製",
-      "print_gift_card": "列印"
     }
   }
 }

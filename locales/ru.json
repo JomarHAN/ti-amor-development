@@ -43,11 +43,6 @@
       "view": "Просмотреть корзину ({{ count }})",
       "item_added": "Товар добавлен в корзину.",
       "view_empty_cart": "Просмотреть корзину"
-      "search": "Поиск"
-    },
-    "cart": {
-      "view": "Просмотреть корзину ({{ count }})",
-      "item_added": "Товар добавлен в корзину."
     },
     "share": {
       "copy_to_clipboard": "Копировать ссылку",
@@ -116,7 +111,6 @@
       "add_to_cart": "Добавить в корзину",
       "description": "Описание",
       "on_sale": "Распродажа",
-      "product_variants": "Варианты товара",
       "share": "Поделиться этим продуктом",
       "sold_out": "Продано",
       "unavailable": "Недоступно",
@@ -134,7 +128,6 @@
         "multiples_of": "Прирост: {{ quantity }}",
         "in_cart_html": "В корзине: <span class=\"quantity-cart\">{{ quantity }}<\/span>",
         "note": "Просмотреть правила количества позиций"
-        "decrease": "Уменьшить количество {{ product }}"
       },
       "price": {
         "from_price_html": "От {{ price }}",
@@ -183,7 +176,6 @@
         "price_range": "{{ minimum }} — {{ maximum }}"
       },
       "product_variants": "Варианты товара"
-      "choose_product_options": "Выберите варианты для {{ product_name }}"
     },
     "modal": {
       "label": "Галерея мультимедиа"
@@ -264,7 +256,6 @@
       },
       "suggestions": "Рекомендации",
       "pages": "Страницы"
-      }
     },
     "cart": {
       "cart": "Корзина"
@@ -301,8 +292,6 @@
       "title": "Корзина",
       "caption": "Товары в корзине",
       "remove_title": "Удалить «{{ title }}»",
-      "subtotal": "Промежуточный итог",
-      "new_subtotal": "Новый промежуточный итог",
       "note": "Получить специальные инструкции",
       "checkout": "Оформить заказ",
       "empty": "Корзина пуста.",
@@ -312,10 +301,6 @@
       "taxes_included_but_shipping_at_checkout": "Сумма налога, скидки и стоимость доставки, рассчитанные при оформлении заказа",
       "taxes_included_and_shipping_policy_html": "Налоги включены. <a href=\"{{ link }}\">Стоимость доставки<\/a> и скидки рассчитываются при оформлении заказа.",
       "taxes_and_shipping_at_checkout": "Налоги, скидки и стоимость доставки, рассчитанные при оформлении заказа",
-      "taxes_and_shipping_policy_at_checkout_html": "Налоги и стоимость <a href=\"{{ link }}\">доставки<\/a>, рассчитанные при оформлении заказа",
-      "taxes_included_but_shipping_at_checkout": "Сумма налога и стоимость доставки, рассчитанные при оформлении заказа",
-      "taxes_included_and_shipping_policy_html": "Налоги включены. <a href=\"{{ link }}\">Стоимость доставки<\/a> рассчитывается при оформлении заказа.",
-      "taxes_and_shipping_at_checkout": "Налоги и стоимость доставки, рассчитанные при оформлении заказа",
       "update": "Обновить",
       "headings": {
         "product": "Товар",
@@ -330,7 +315,6 @@
       },
       "estimated_total": "Ориентировочная общая сумма",
       "new_estimated_total": "Новая ориентировочная общая сумма"
-      }
     },
     "footer": {
       "payment": "Способы оплаты"
@@ -514,7 +498,6 @@
       "subtotal": "Промежуточный итог",
       "total_duties": "Пошлины",
       "total_refunded": "Средства возвращены"
-      "total_duties": "Пошлины"
     }
   },
   "gift_cards": {
@@ -547,17 +530,6 @@
       "send_on_label": "Дата отправки (необязательно)",
       "expanded": "Форма с данными получателя подарочной карты развернута",
       "collapsed": "Форма с данными получателя подарочной карты свернута"
-      "title": "Вот ваша подарочная карта на {{ value }} для магазина {{ shop }}!",
-      "subtext": "Ваша подарочная карта",
-      "gift_card_code": "Код подарочной карты",
-      "shop_link": "Продолжить покупки",
-      "remaining_html": "Остаток на счету: {{ balance }}",
-      "add_to_apple_wallet": "Добавить в Apple Wallet",
-      "qr_image_alt": "Отсканируйте QR-код, чтобы использовать подарочную карту",
-      "copy_code": "Копировать код",
-      "expired": "Срок действия истек",
-      "copy_code_success": "Код скопирован",
-      "print_gift_card": "Печать"
     }
   }
 }

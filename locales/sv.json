@@ -43,11 +43,6 @@
       "view": "Visa varukorg ({{ count }})",
       "item_added": "Artikeln har lagts till i varukorgen",
       "view_empty_cart": "Visa varukorg"
-      "search": "Sök"
-    },
-    "cart": {
-      "view": "Visa min varukorg ({{ count }})",
-      "item_added": "Artikeln har lagts till i varukorgen"
     },
     "share": {
       "copy_to_clipboard": "Kopiera länk",
@@ -114,7 +109,6 @@
       "add_to_cart": "Lägg i varukorgen",
       "description": "Beskrivning",
       "on_sale": "Rea",
-      "product_variants": "Produktvarianter",
       "quantity": {
         "label": "Kvantitet",
         "input_label": "Kvantitet för {{ product }}",
@@ -125,7 +119,6 @@
         "multiples_of": "Ökningar i steg om {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> i varukorg",
         "note": "Visa kvantitetsregler"
-        "decrease": "Minska kvantitet för {{ product }}"
       },
       "price": {
         "from_price_html": "Från {{ price }}",
@@ -181,7 +174,6 @@
         "price_range": "{{ minimum }}–{{ maximum }}"
       },
       "product_variants": "Produktvarianter"
-      "choose_product_options": "Välj alternativ för {{ product_name }}"
     },
     "modal": {
       "label": "Mediagalleri"
@@ -280,8 +272,6 @@
       "title": "Din varukorg",
       "caption": "Varukorgsartiklar",
       "remove_title": "Ta bort {{ title }}",
-      "subtotal": "Delsumma",
-      "new_subtotal": "Ny delsumma",
       "note": "Beställ särskilda instruktioner",
       "checkout": "Gå till kassan",
       "empty": "Din varukorg är tom",
@@ -291,10 +281,6 @@
       "taxes_included_but_shipping_at_checkout": "Skatt ingår och leverans och rabatter beräknas i kassan",
       "taxes_included_and_shipping_policy_html": "Skatt ingår. <a href=\"{{ link }}\">Leverans<\/a> och rabatter beräknas i kassan.",
       "taxes_and_shipping_at_checkout": "Skatter, rabatter och leverans beräknas i kassan",
-      "taxes_and_shipping_policy_at_checkout_html": "Moms och <a href=\"{{ link }}\">frakt<\/a> beräknas i kassan",
-      "taxes_included_but_shipping_at_checkout": "Moms ingår och frakt beräknas i kassan",
-      "taxes_included_and_shipping_policy_html": "Moms ingår. <a href=\"{{ link }}\">Frakt<\/a> beräknas i kassan.",
-      "taxes_and_shipping_at_checkout": "Moms och frakt beräknas i kassan",
       "headings": {
         "product": "Produkt",
         "price": "Pris",
@@ -309,7 +295,6 @@
       },
       "estimated_total": "Beräknad totalsumma",
       "new_estimated_total": "Nytt beräknat totalbelopp"
-      }
     },
     "footer": {
       "payment": "Betalningsmetoder"
@@ -489,7 +474,6 @@
       "subtotal": "Delsumma",
       "total_duties": "Tullavgifter",
       "total_refunded": "Återbetald"
-      "total_duties": "Tullavgifter"
     }
   },
   "gift_cards": {
@@ -522,14 +506,6 @@
       "send_on_label": "Skicka den (valfritt)",
       "expanded": "Mottagarformulär för presentkort öppnat",
       "collapsed": "Mottagarformulär för presentkort stängt"
-      "shop_link": "Fortsätt shoppa",
-      "remaining_html": "Återstående {{ balance }}",
-      "add_to_apple_wallet": "Lägg till i Apple Wallet",
-      "qr_image_alt": "QR-kod – skanna för att lösa in presentkort",
-      "copy_code": "Kopiera kod",
-      "expired": "Har gått ut",
-      "copy_code_success": "Koden kopierades",
-      "print_gift_card": "Skriv ut"
     }
   }
 }

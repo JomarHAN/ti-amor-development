@@ -24,48 +24,6 @@
         },
         "shadow": {
           "label": "Varjo"
-        "colors_solid_button_labels": {
-          "label": "Peittävä tekstipainike",
-          "info": "Käytetään korostusvärien edustavärinä."
-        },
-        "colors_accent_1": {
-          "label": "Korostus 1",
-          "info": "Käytetään peittävän painikkeen taustana."
-        },
-        "colors_accent_2": {
-          "label": "Korostus 2"
-        },
-        "header__1": {
-          "content": "Ensisijaiset värit"
-        },
-        "header__2": {
-          "content": "Toissijaiset värit"
-        },
-        "colors_text": {
-          "label": "Teksti",
-          "info": "Käytetään taustavärien edustavärinä."
-        },
-        "colors_outline_button_labels": {
-          "label": "Kehyspainike",
-          "info": "Käytetään myös tekstilinkeissä."
-        },
-        "colors_background_1": {
-          "label": "Tausta 1"
-        },
-        "colors_background_2": {
-          "label": "Tausta 2"
-        },
-        "gradient_accent_1": {
-          "label": "Korostus 1 liukuväri"
-        },
-        "gradient_accent_2": {
-          "label": "Korostus 2 liukuväri"
-        },
-        "gradient_background_1": {
-          "label": "Tausta 1 liukuväri"
-        },
-        "gradient_background_2": {
-          "label": "Tausta 2 liukuväri"
         }
       }
     },
@@ -91,20 +49,6 @@
         },
         "body_scale": {
           "label": "Fonttikoon skaala"
-        }
-      }
-    },
-    "styles": {
-      "name": "Kuvakkeet",
-      "settings": {
-        "accent_icons": {
-          "options__3": {
-            "label": "Kehyspainike"
-          },
-          "options__4": {
-            "label": "Teksti"
-          },
-          "label": "Väri"
         }
       }
     },
@@ -162,15 +106,6 @@
         "paragraph": "Ostoskorin ja kassan hinnat näyttävät aina valuuttakoodit. Esimerkki: $1.00 USD."
       }
     },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Favicon-kuva",
-          "info": "Skaalataan 32 x 32 pikseliin"
-        }
-      }
-    },
     "layout": {
       "name": "Asettelu",
       "settings": {
@@ -179,14 +114,12 @@
         },
         "spacing_sections": {
           "label": "Tila malliosioiden välissä"
-          "label": "Osioiden välinen pystysuuntainen tila"
         },
         "header__grid": {
           "content": "Ruudukko"
         },
         "paragraph__grid": {
           "content": "Vaikuttaa alueisiin, joissa on monta saraketta tai riviä."
-          "content": "Vaikuttaa alueisiin, joissa on monisarakeasettelu."
         },
         "spacing_grid_horizontal": {
           "label": "Vaakasuuntainen tila"
@@ -212,18 +145,6 @@
         "predictive_search_show_price": {
           "label": "Näytä tuotteen nimi",
           "info": "Näkyy, kun hakuehdotukset ovat käytössä."
-          "content": "Tuote-ehdotukset"
-        },
-        "predictive_search_enabled": {
-          "label": "Ota tuote-ehdotukset käyttöön"
-        },
-        "predictive_search_show_vendor": {
-          "label": "Näytä myyjä",
-          "info": "Näkyy, kun tuote-ehdotukset ovat käytössä."
-        },
-        "predictive_search_show_price": {
-          "label": "Näytä hinta",
-          "info": "Näkyy, kun tuote-ehdotukset ovat käytössä."
         }
       }
     },
@@ -458,21 +379,6 @@
       },
       "spacing": "Väli",
       "colors": {
-        "accent_1": {
-          "label": "Korostus 1"
-        },
-        "accent_2": {
-          "label": "Korostus 2"
-        },
-        "background_1": {
-          "label": "Tausta 1"
-        },
-        "background_2": {
-          "label": "Tausta 2"
-        },
-        "inverse": {
-          "label": "Käänteinen"
-        },
         "label": "Värimalli",
         "has_cards_info": "Voit muuttaa kortin väriskeemaa päivittämällä teema-asetuksia."
       },
@@ -642,10 +548,6 @@
           "settings": {
             "image": {
               "label": "Kuva"
-            },
-            "image_padding": {
-              "label": "Käytä alkuperäistä kuvasuhdetta",
-              "info": "Valitse, jos et halua, että kuvaasi rajataan."
             }
           }
         },
@@ -681,10 +583,6 @@
               "label": "URL-osoite",
               "info": "Video toistetaan ponnahdusikkunassa, jos osio sisältää muita lohkoja.",
               "placeholder": "Käytä YouTube- tai Vimeo-linkkiä"
-            },
-            "image_padding": {
-              "label": "Käytä alkuperäistä kuvasuhdetta",
-              "info": "Valitse, jos et halua, että kuvaasi rajataan."
             },
             "description": {
               "label": "Videon vaihtoehtoinen teksti",
@@ -764,8 +662,6 @@
         "custom_liquid": {
           "label": "Liquid-koodi",
           "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita koodeja. [Lisätietoja](https:\/\/shopify.dev\/docs\/api\/liquid)"
-          "label": "Mukautettu Liquid",
-          "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita Liquid-koodeja."
         }
       },
       "presets": {
@@ -807,7 +703,6 @@
     },
     "featured-collection": {
       "name": "Esittelykokoelma",
-      "name": "Esittelyssä oleva kokoelma",
       "settings": {
         "title": {
           "label": "Otsikko"
@@ -907,7 +802,6 @@
       },
       "presets": {
         "name": "Esittelykokoelma"
-        "name": "Esittelyssä oleva kokoelma"
       }
     },
     "footer": {
@@ -966,7 +860,6 @@
         "header__2": {
           "content": "Some-kuvakkeet",
           "info": "Jos haluat näyttää sosiaalisen median tilisi, linkitä ne [teema-asetuksistasi](\/editor?context=theme&category=social%20media)."
-          "info": "Jos haluat näyttää sosiaalisen median tilisi, linkitä ne teema-asetuksistasi."
         },
         "show_social": {
           "label": "Näytä some-kuvakkeet"
@@ -976,7 +869,6 @@
         },
         "header__4": {
           "info": "Lisää maa\/alue siirtymällä [markkina-asetuksiisi.](\/admin\/settings\/markets)"
-          "info": "Lisää maa\/alue siirtymällä [maksuasetuksiisi.](\/admin\/settings\/payments)"
         },
         "enable_country_selector": {
           "label": "Näytä maa-\/aluevalitsin"
@@ -1018,13 +910,6 @@
     "header": {
       "name": "Ylätunniste",
       "settings": {
-        "logo": {
-          "label": "Logokuva"
-        },
-        "logo_width": {
-          "unit": "px",
-          "label": "Mukautetun logon leveys"
-        },
         "logo_position": {
           "label": "Logon sijainti tietokoneella",
           "options__1": {
@@ -1045,10 +930,6 @@
         },
         "show_line_separator": {
           "label": "Näytä erotinviiva"
-        },
-        "enable_sticky_header": {
-          "label": "Ota paikallaan pysyvä ylätunniste käyttöön",
-          "info": "Ylätunniste näkyy näytöllä, kun asiakkaat vierittävät ylöspäin."
         },
         "margin_bottom": {
           "label": "Alareunus"
@@ -1134,24 +1015,11 @@
         "stack_images_on_mobile": {
           "label": "Pinoa kuvat mobiilissa"
         },
-        "color_scheme": {
-          "info": "Näkyvillä, kun säilö on esillä."
-        },
-        "stack_images_on_mobile": {
-          "label": "Pinoa kuvat mobiilissa"
-        },
-        "adapt_height_first_image": {
-          "label": "Mukauta osion korkeus ensimmäisen kuvan kokoon",
-          "info": "Korvaa kuvabannerin korkeusasetuksen"
-        },
         "show_text_box": {
           "label": "Näytä säilö pöytäkoneella"
         },
         "image_overlay_opacity": {
           "label": "Peittokuvan läpikuultavuus"
-        },
-        "header": {
-          "content": "Mobiiliasettelu"
         },
         "show_text_below": {
           "label": "Näytä säilö mobiililaitteessa"
@@ -1171,15 +1039,6 @@
           "options__4": {
             "label": "Suuri"
           }
-            "label": "Pieni"
-          },
-          "options__2": {
-            "label": "Keskisuuri"
-          },
-          "options__3": {
-            "label": "Suuri"
-          },
-          "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 3:2. [Lisätietoja](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__1": {
@@ -1318,9 +1177,6 @@
           "options__4": {
             "label": "Suuri"
           }
-            "label": "Suuri"
-          },
-          "label": "Kuvan korkeus"
         },
         "layout": {
           "options__1": {
@@ -1626,11 +1482,6 @@
         "enable_filtering": {
           "label": "Ota suodatus käyttöön",
           "info": "Mukauta suodattimia Search & Discovery -sovelluksen avulla. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
-          "info": "[Mukauta suodattimia](\/admin\/menus)"
-        },
-        "enable_filtering": {
-          "label": "Ota suodatus käyttöön",
-          "info": "Mukauta [suodattimia](\/admin\/menus)"
         },
         "enable_sorting": {
           "label": "Ota lajittelu käyttöön"
@@ -1750,12 +1601,6 @@
         },
         "logo_help": {
           "content": "Muokkaa logoa teeman asetuksissa."
-        "logo": {
-          "label": "Logokuva"
-        },
-        "logo_max_width": {
-          "label": "Mukautetun logon leveys",
-          "unit": "px"
         }
       }
     },
@@ -1998,15 +1843,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Mukautettu liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Mukautettu liquid",
-              "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita Liquid-koodeja."
-            }
-          }
-        },
         "rating": {
           "name": "Tuotearvio",
           "settings": {
@@ -2180,7 +2016,6 @@
         },
         "media_size": {
           "label": "Median leveys tietokoneella",
-          "label": "Median koko tietokoneella",
           "options__1": {
             "label": "Pieni"
           },
@@ -2445,60 +2280,6 @@
         "name": "Sivu"
       }
     },
-    "product-recommendations": {
-      "name": "Tuotesuositukset",
-      "settings": {
-        "heading": {
-          "label": "Otsikko"
-        },
-        "header__2": {
-          "content": "Tuotekortti"
-        },
-        "image_ratio": {
-          "label": "Kuvasuhde",
-          "options__1": {
-            "label": "Sovita kuvaan"
-          },
-          "options__2": {
-            "label": "Muotokuva"
-          },
-          "options__3": {
-            "label": "Neliö"
-          }
-        },
-        "show_secondary_image": {
-          "label": "Näytä toinen kuva osoittaessa"
-        },
-        "show_vendor": {
-          "label": "Näytä myyjä"
-        },
-        "paragraph__1": {
-          "content": "Dynaamisissa suosituksissa käytetään tilaus- ja tuotetietoja, jotta suositukset muuttuvat ja paranevat ajan myötä. [Lisätietoja](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
-        },
-        "show_rating": {
-          "label": "Näytä tuotteen luokitus",
-          "info": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
-        },
-        "columns_desktop": {
-          "label": "Sarakkeiden määrä työpöydällä"
-        },
-        "header_mobile": {
-          "content": "Mobiilipohja"
-        },
-        "columns_mobile": {
-          "label": "Sarakkeiden määrä mobiilissa",
-          "options__1": {
-            "label": "1 sarake"
-          },
-          "options__2": {
-            "label": "2 saraketta"
-          }
-        },
-        "products_to_show": {
-          "label": "Näytettävien tuotteiden enimmäismäärä"
-        }
-      }
-    },
     "rich-text": {
       "name": "Rich text",
       "settings": {
@@ -2630,8 +2411,6 @@
         "video_url": {
           "label": "URL-osoite",
           "info": "Käytä YouTube- tai Vimeo-linkkiä"
-          "placeholder": "Käytä YouTube- tai Vimeo-linkkiä",
-          "info": "Video toistetaan sivulla."
         },
         "description": {
           "label": "Videon vaihtoehtoinen teksti",
@@ -2761,19 +2540,6 @@
               "options__3": {
                 "label": "Isot kirjaimet"
               }
-        "custom_liquid": {
-          "name": "Mukautettu liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Mukautettu liquid"
-            }
-          }
-        },
-        "rating": {
-          "name": "Tuotearvio",
-          "settings": {
-            "paragraph": {
-              "content": "Näytä luokitus lisäämällä tuotearviointisovellus. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-product-rating)"
             }
           }
         }
@@ -2827,9 +2593,6 @@
         },
         "image_overlay_opacity": {
           "label": "Peittokuvan läpikuultavuus"
-        },
-        "color_scheme": {
-          "info": "Näkyvissä, kun säilö on esillä."
         },
         "show_text_below": {
           "label": "Näytä kuvien alla oleva sisältö mobiililaitteessa",
@@ -3074,9 +2837,6 @@
             },
             "image_overlay_opacity": {
               "label": "Peittokuvan läpikuultavuus"
-            },
-            "color_scheme": {
-              "info": "Näkyvillä, kun säilö on esillä."
             },
             "text_alignment_mobile": {
               "label": "Mobiilisisällön tasaus",
@@ -3563,7 +3323,6 @@
       "presets": {
         "name": "Pikatilausluettelo"
       }
-      "name": "Salasanan palautus"
     }
   }
 }

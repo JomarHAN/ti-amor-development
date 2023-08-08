@@ -24,48 +24,6 @@
         },
         "shadow": {
           "label": "เงา"
-        "colors_solid_button_labels": {
-          "label": "ป้ายกำกับปุ่มทึบ",
-          "info": "ใช้เป็นสีพื้นหน้าบนสีที่เน้น"
-        },
-        "colors_accent_1": {
-          "label": "การเน้น 1",
-          "info": "ใช้เป็นพื้นหลังปุ่มทึบ"
-        },
-        "colors_accent_2": {
-          "label": "การเน้น 2"
-        },
-        "header__1": {
-          "content": "สีหลัก"
-        },
-        "header__2": {
-          "content": "สีรอง"
-        },
-        "colors_text": {
-          "label": "ข้อความ",
-          "info": "ใช้เป็นสีพื้นหน้าบนสีพื้นหลัง"
-        },
-        "colors_outline_button_labels": {
-          "label": "ปุ่มแบบเค้าโครง",
-          "info": "ใช้กับลิงก์ข้อความได้อีกด้วย"
-        },
-        "colors_background_1": {
-          "label": "พื้นหลัง 1"
-        },
-        "colors_background_2": {
-          "label": "พื้นหลัง 2"
-        },
-        "gradient_accent_1": {
-          "label": "การเน้น 1 แบบไล่ระดับสี"
-        },
-        "gradient_accent_2": {
-          "label": "การเน้น 2 แบบไล่ระดับสี"
-        },
-        "gradient_background_1": {
-          "label": "พื้นหลัง 1 แบบไล่ระดับสี"
-        },
-        "gradient_background_2": {
-          "label": "พื้นหลัง 2 แบบไล่ระดับสี"
         }
       }
     },
@@ -91,20 +49,6 @@
         },
         "body_scale": {
           "label": "ขนาดแบบอักษร"
-        }
-      }
-    },
-    "styles": {
-      "name": "ไอคอน",
-      "settings": {
-        "accent_icons": {
-          "options__3": {
-            "label": "ปุ่มแบบเค้าโครง"
-          },
-          "options__4": {
-            "label": "ข้อความ"
-          },
-          "label": "สี"
         }
       }
     },
@@ -162,15 +106,6 @@
         }
       }
     },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "รูปภาพ Favicon",
-          "info": "จะถูกลดขนาดลงเป็น 32 x 32 พิกเซล"
-        }
-      }
-    },
     "layout": {
       "name": "เลย์เอาต์",
       "settings": {
@@ -179,14 +114,12 @@
         },
         "spacing_sections": {
           "label": "ช่องว่างระหว่างส่วนเทมเพลต"
-          "label": "ช่องว่างแนวตั้งระหว่างส่วนต่างๆ"
         },
         "header__grid": {
           "content": "กริด"
         },
         "paragraph__grid": {
           "content": "ส่งผลต่อพื้นที่ที่มีหลายคอลัมน์หรือหลายแถว"
-          "content": "ส่งผลต่อพื้นที่ที่มีเลย์เอาต์แบบหลายคอลัมน์"
         },
         "spacing_grid_horizontal": {
           "label": "ช่องว่างแนวนอน"
@@ -212,18 +145,6 @@
         "predictive_search_show_price": {
           "label": "แสดงราคาสินค้า",
           "info": "จะปรากฏให้เห็นเมื่อเปิดใช้คำแนะการค้นหา"
-          "content": "คำแนะนำสินค้า"
-        },
-        "predictive_search_enabled": {
-          "label": "เปิดใช้งานคำแนะนำสินค้า"
-        },
-        "predictive_search_show_vendor": {
-          "label": "แสดงผู้ขาย",
-          "info": "จะปรากฏให้เห็นเมื่อเปิดใช้คำแนะนำสินค้า"
-        },
-        "predictive_search_show_price": {
-          "label": "แสดงราคา",
-          "info": "จะปรากฏให้เห็นเมื่อเปิดใช้คำแนะนำสินค้า"
         }
       }
     },
@@ -350,7 +271,6 @@
         },
         "show_vendor": {
           "label": "แสดงเวนเดอร์"
-          "label": "แสดงผู้ขาย"
         },
         "show_cart_note": {
           "label": "เปิดใช้หมายเหตุสำหรับตะกร้าสินค้า"
@@ -459,21 +379,6 @@
       },
       "spacing": "การเว้นระยะห่าง",
       "colors": {
-        "accent_1": {
-          "label": "ส่วนเน้น 1"
-        },
-        "accent_2": {
-          "label": "ส่วนเน้น 2"
-        },
-        "background_1": {
-          "label": "พื้นหลัง 1"
-        },
-        "background_2": {
-          "label": "พื้นหลัง 2"
-        },
-        "inverse": {
-          "label": "ตรงกันข้าม"
-        },
         "label": "รูปแบบสี",
         "has_cards_info": "หากต้องการเปลี่ยนรูปแบบสีของบัตร ให้อัปเดตการตั้งค่าธีมของคุณ"
       },
@@ -642,10 +547,6 @@
           "settings": {
             "image": {
               "label": "รูปภาพ"
-            },
-            "image_padding": {
-              "label": "ใช้อัตราส่วนภาพแบบเดิม",
-              "info": "เลือกตัวเลือกนี้หากไม่ต้องการให้รูปภาพถูกครอบตัด"
             }
           },
           "name": "รูปภาพ"
@@ -681,10 +582,6 @@
               "label": "URL",
               "info": "วิดีโอจะเล่นในป๊อปอัปหากส่วนนี้มีบล็อกอื่นๆ",
               "placeholder": "ใช้ URL ของ YouTube หรือ Vimeo"
-            },
-            "image_padding": {
-              "label": "ใช้อัตราส่วนภาพแบบเดิม",
-              "info": "เลือกตัวเลือกนี้หากไม่ต้องการให้รูปภาพถูกครอบตัด"
             },
             "description": {
               "label": "ข้อความแสดงแทนวิดีโอ",
@@ -765,8 +662,6 @@
         "custom_liquid": {
           "label": "โค้ด Liquid",
           "info": "เพิ่มส่วนย่อยของแอปหรือโค้ดอื่นๆ เพื่อสร้างการปรับแต่งขั้นสูง [ดูข้อมูลเพิ่มเติม](https:\/\/shopify.dev\/docs\/api\/liquid)"
-          "label": "ปรับแต่ง Liquid",
-          "info": "เพิ่มส่วนย่อยของแอปหรือโค้ด Liquid อื่นๆ เพื่อสร้างการปรับแต่งขั้นสูง"
         }
       },
       "presets": {
@@ -808,7 +703,6 @@
     },
     "featured-collection": {
       "name": "คอลเลกชันเด่น",
-      "name": "คอลเลกชันแนะนำ",
       "settings": {
         "title": {
           "label": "หัวเรื่อง"
@@ -842,7 +736,6 @@
         },
         "show_vendor": {
           "label": "แสดงเวนเดอร์"
-          "label": "แสดงผู้ขาย"
         },
         "show_rating": {
           "label": "แสดงคะแนนของสินค้า",
@@ -909,7 +802,6 @@
       },
       "presets": {
         "name": "คอลเลกชันเด่น"
-        "name": "คอลเลกชันแนะนำ"
       }
     },
     "footer": {
@@ -968,7 +860,6 @@
         "header__2": {
           "content": "ไอคอนโซเชียลมีเดีย",
           "info": "หากต้องการแสดงบัญชีผู้ใช้โซเชียลมีเดียของคุณ ให้ลิงก์บัญชีไว้ใน [การตั้งค่าธีม](\/editor?context=theme&category=social%20media) ของคุณ"
-          "info": "หากต้องการแสดงบัญชีผู้ใช้โซเชียลมีเดียของคุณ ให้ลิงก์บัญชีไว้ในการตั้งค่าธีม"
         },
         "show_social": {
           "label": "แสดงไอคอนโซเชียลมีเดีย"
@@ -978,7 +869,6 @@
         },
         "header__4": {
           "info": "หากต้องการเพิ่มประเทศ\/ภูมิภาค ให้ไปที่ [การตั้งค่าตลาด](\/admin\/settings\/markets)"
-          "info": "หากต้องการเพิ่มประเทศ\/ภูมิภาค ให้ไปที่ [การตั้งค่าการชำระเงิน](\/admin\/settings\/payments)"
         },
         "enable_country_selector": {
           "label": "เปิดใช้งานตัวเลือกประเทศ\/ภูมิภาค"
@@ -1020,13 +910,6 @@
     "header": {
       "name": "ส่วนหัว",
       "settings": {
-        "logo": {
-          "label": "รูปภาพโลโก้"
-        },
-        "logo_width": {
-          "unit": "px",
-          "label": "ความกว้างของโลโก้แบบกำหนดเอง"
-        },
         "logo_position": {
           "label": "ตำแหน่งโลโก้บนเดสก์ท็อป",
           "options__1": {
@@ -1047,10 +930,6 @@
         },
         "show_line_separator": {
           "label": "แสดงเส้นของตัวแบ่ง"
-        },
-        "enable_sticky_header": {
-          "label": "เปิดใช้งานส่วนหัวแบบยึดตำแหน่ง",
-          "info": "แสดงส่วนหัวบนหน้าจอเมื่อลูกค้าเลื่อนหน้าจอขึ้น"
         },
         "margin_bottom": {
           "label": "ย่อหน้าล่าง"
@@ -1136,24 +1015,11 @@
         "stack_images_on_mobile": {
           "label": "การรวมภาพบนมือถือ"
         },
-        "color_scheme": {
-          "info": "ปรากฏให้เห็นเมื่อแสดงคอนเทนเนอร์"
-        },
-        "stack_images_on_mobile": {
-          "label": "การรวมภาพบนมือถือ"
-        },
-        "adapt_height_first_image": {
-          "label": "ปรับความสูงของส่วนตามขนาดของรูปภาพแรก",
-          "info": "เขียนทับการตั้งค่าความสูงของแบนเนอร์รูปภาพเมื่อทำเครื่องหมาย"
-        },
         "show_text_box": {
           "label": "แสดงคอนเทนเนอร์บนเดสก์ท็อป"
         },
         "image_overlay_opacity": {
           "label": "ความทึบของการวางซ้อนรูปภาพ"
-        },
-        "header": {
-          "content": "เลย์เอาต์ของมือถือ"
         },
         "show_text_below": {
           "label": "แสดงคอนเทนเนอร์บนมือถือ"
@@ -1173,15 +1039,6 @@
           "options__4": {
             "label": "ใหญ่"
           }
-            "label": "เล็ก"
-          },
-          "options__2": {
-            "label": "ปานกลาง"
-          },
-          "options__3": {
-            "label": "ใหญ่"
-          },
-          "info": "ใช้รูปภาพที่มีอัตราส่วนภาพ 3:2 เพื่อผลลัพธ์ที่ดีที่สุด [ดูข้อมูลเพิ่มเติม](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__1": {
@@ -1320,9 +1177,6 @@
           "options__4": {
             "label": "ใหญ่"
           }
-            "label": "ใหญ่"
-          },
-          "label": "ความสูงของรูปภาพ"
         },
         "layout": {
           "options__1": {
@@ -1620,7 +1474,6 @@
         },
         "show_vendor": {
           "label": "แสดงเวนเดอร์"
-          "label": "แสดงผู้ขาย"
         },
         "header__1": {
           "content": "การกรองและการจัดเรียง"
@@ -1632,11 +1485,6 @@
         "enable_filtering": {
           "label": "เปิดใช้การกรอง",
           "info": "ปรับแต่งตัวกรองในร้านค้าของคุณด้วยแอป Search & Discovery [ดูข้อมูลเพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
-          "info": "[ปรับแต่งตัวกรอง](\/admin\/menus)"
-        },
-        "enable_filtering": {
-          "label": "เปิดใช้การกรอง",
-          "info": "ปรับแต่ง [ตัวกรอง](\/admin\/menus)"
         },
         "enable_sorting": {
           "label": "เปิดใช้การจัดเรียง"
@@ -1753,12 +1601,6 @@
         },
         "logo_help": {
           "content": "แก้ไขโลโก้ของคุณในการตั้งค่าธีม"
-        "logo": {
-          "label": "รูปภาพโลโก้"
-        },
-        "logo_max_width": {
-          "label": "ความกว้างของโลโก้แบบกำหนดเอง",
-          "unit": "px"
         }
       }
     },
@@ -2002,15 +1844,6 @@
         "description": {
           "name": "คำอธิบาย"
         },
-        "custom_liquid": {
-          "name": "ปรับแต่ง Liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "ปรับแต่ง Liquid",
-              "info": "เพิ่มส่วนย่อยของแอปหรือโค้ด Liquid อื่นๆ เพื่อสร้างการปรับแต่งขั้นสูง"
-            }
-          }
-        },
         "rating": {
           "name": "คะแนนของสินค้า",
           "settings": {
@@ -2184,7 +2017,6 @@
         },
         "media_size": {
           "label": "ความกว้างของสื่อบนเดสก์ท็อป",
-          "label": "ขนาดของสื่อบนเดสก์ท็อป",
           "options__1": {
             "label": "เล็ก"
           },
@@ -2265,7 +2097,6 @@
         },
         "show_vendor": {
           "label": "แสดงเวนเดอร์"
-          "label": "แสดงผู้ขาย"
         },
         "header__1": {
           "content": "บัตรสินค้า"
@@ -2449,60 +2280,6 @@
         "name": "หน้า"
       }
     },
-    "product-recommendations": {
-      "name": "คำแนะนำสินค้า",
-      "settings": {
-        "heading": {
-          "label": "หัวเรื่อง"
-        },
-        "header__2": {
-          "content": "บัตรสินค้า"
-        },
-        "image_ratio": {
-          "label": "อัตราส่วนรูปภาพ",
-          "options__1": {
-            "label": "ปรับตามรูปภาพ"
-          },
-          "options__2": {
-            "label": "แนวตั้ง"
-          },
-          "options__3": {
-            "label": "สี่เหลี่ยมจัตุรัส"
-          }
-        },
-        "show_secondary_image": {
-          "label": "แสดงรูปภาพที่สองเมื่อนำเมาส์ไปวาง"
-        },
-        "show_vendor": {
-          "label": "แสดงผู้ขาย"
-        },
-        "paragraph__1": {
-          "content": "คำแนะนำแบบไดนามิกต้องใช้ข้อมูลคำสั่งซื้อและข้อมูลสินค้าเพื่อปรับปรุงและเปลี่ยนแปลงตลอดระยะเวลา [ดูข้อมูลเพิ่มเติม](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
-        },
-        "show_rating": {
-          "label": "แสดงคะแนนของสินค้า",
-          "info": "หากต้องการแสดงคะแนน ให้เพิ่มแอปการให้คะแนนสินค้า [ดูข้อมูลเพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
-        },
-        "columns_desktop": {
-          "label": "จำนวนของคอลัมน์บนเดสก์ท็อป"
-        },
-        "header_mobile": {
-          "content": "เลย์เอาต์สำหรับมือถือ"
-        },
-        "columns_mobile": {
-          "label": "จำนวนคอลัมน์บนมือถือ",
-          "options__1": {
-            "label": "1 คอลัมน์"
-          },
-          "options__2": {
-            "label": "2 คอลัมน์"
-          }
-        },
-        "products_to_show": {
-          "label": "จำนวนสินค้าสูงสุดที่จะแสดง"
-        }
-      }
-    },
     "rich-text": {
       "name": "Rich Text",
       "settings": {
@@ -2634,8 +2411,6 @@
         "video_url": {
           "label": "URL",
           "info": "ใช้ URL ของ YouTube หรือ Vimeo"
-          "placeholder": "ใช้ URL ของ YouTube หรือ Vimeo",
-          "info": "วิดีโอจะเล่นในหน้า"
         },
         "description": {
           "label": "ข้อความกำกับวิดีโอ",
@@ -2765,19 +2540,6 @@
               "options__3": {
                 "label": "ตัวพิมพ์ใหญ่"
               }
-        "custom_liquid": {
-          "name": "ปรับแต่ง Liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "ปรับแต่ง Liquid"
-            }
-          }
-        },
-        "rating": {
-          "name": "คะแนนของสินค้า",
-          "settings": {
-            "paragraph": {
-              "content": "หากต้องการแสดงคะแนน ให้เพิ่มแอปการให้คะแนนสินค้า [ดูข้อมูลเพิ่มเติม](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-product-rating)"
             }
           }
         }
@@ -2831,9 +2593,6 @@
         },
         "image_overlay_opacity": {
           "label": "ความทึบของการวางซ้อนรูปภาพ"
-        },
-        "color_scheme": {
-          "info": "ปรากฏให้เห็นเมื่อแสดงกรอบเนื้อหา"
         },
         "show_text_below": {
           "label": "แสดงเนื้อหาที่ด้านล่างของรูปภาพบนมือถือ",
@@ -3078,9 +2837,6 @@
             },
             "image_overlay_opacity": {
               "label": "ความทึบของการวางซ้อนรูปภาพ"
-            },
-            "color_scheme": {
-              "info": "ปรากฏให้เห็นเมื่อแสดงกรอบเนื้อหา"
             },
             "text_alignment_mobile": {
               "label": "การจัดวางเนื้อหาบนมือถือ",

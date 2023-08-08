@@ -43,11 +43,6 @@
       "view": "Ver carrinho ({{ count }})",
       "item_added": "Item adicionado ao carrinho",
       "view_empty_cart": "Ver carrinho"
-      "search": "Pesquisar"
-    },
-    "cart": {
-      "view": "Ver o carrinho ({{ count }})",
-      "item_added": "Item adicionado ao carrinho"
     },
     "share": {
       "copy_to_clipboard": "Copiar link",
@@ -72,7 +67,6 @@
     "close": "Fechar",
     "unit_price_separator": "por",
     "vendor": "Fornecedor:",
-    "vendor": "Fabricante:",
     "error": "Erro",
     "refresh_page": "Ao escolher uma seleção, a página inteira é atualizada.",
     "link_messages": {
@@ -116,7 +110,6 @@
       "add_to_cart": "Adicionar ao carrinho",
       "description": "Descrição",
       "on_sale": "Promoção",
-      "product_variants": "Variantes do produto",
       "quantity": {
         "label": "Quantidade",
         "input_label": "Quantidade de {{ product }}",
@@ -127,7 +120,6 @@
         "multiples_of": "Pacote com {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> no carrinho",
         "note": "Ver regras de quantidade"
-        "decrease": "Diminuir a quantidade de {{ product }}"
       },
       "price": {
         "from_price_html": "De {{ price }}",
@@ -139,7 +131,6 @@
       "sold_out": "Esgotado",
       "unavailable": "Indisponível",
       "vendor": "Fornecedor",
-      "vendor": "Fabricante",
       "video_exit_message": "{{ title }} abre um vídeo em tela cheia na mesma janela.",
       "xr_button": "Ver em seu espaço",
       "xr_button_label": "Ver em seu espaço, carrega item na janela de realidade aumentada",
@@ -184,7 +175,6 @@
         "price_range": "{{ minimum }} – {{ maximum }}"
       },
       "product_variants": "Variantes do produto"
-      "choose_product_options": "Escolha opções para {{ product_name }}"
     },
     "modal": {
       "label": "Galeria de mídia"
@@ -257,7 +247,6 @@
       },
       "suggestions": "Sugestões",
       "pages": "Páginas"
-      }
     },
     "cart": {
       "cart": "Carrinho"
@@ -293,8 +282,6 @@
       "title": "Carrinho",
       "caption": "Itens do carrinho",
       "remove_title": "Remover {{ title }}",
-      "subtotal": "Subtotal",
-      "new_subtotal": "Novo subtotal",
       "note": "Instruções especiais do pedido",
       "checkout": "Finalizar a compra",
       "empty": "O carrinho está vazio",
@@ -304,10 +291,6 @@
       "taxes_included_but_shipping_at_checkout": "Tributos incluídos e frete e descontos calculados no checkout",
       "taxes_included_and_shipping_policy_html": "Tributos incluídos. <a href=\"{{ link }}\">Frete<\/a> e descontos calculados no checkout.",
       "taxes_and_shipping_at_checkout": "Tributos, descontos e frete calculados no checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Tributos e <a href=\"{{ link }}\">frete<\/a> calculados na finalização da compra",
-      "taxes_included_but_shipping_at_checkout": "Tributos incluídos e frete calculado na finalização da compra",
-      "taxes_included_and_shipping_policy_html": "Tributos incluídos. <a href=\"{{ link }}\">Frete<\/a> calculado na finalização da compra.",
-      "taxes_and_shipping_at_checkout": "Tributos e frete calculados na finalização da compra",
       "headings": {
         "product": "Produto",
         "price": "Preço",
@@ -322,7 +305,6 @@
       },
       "estimated_total": "Total estimado",
       "new_estimated_total": "Novo total estimado"
-      }
     },
     "footer": {
       "payment": "Formas de pagamento"
@@ -504,7 +486,6 @@
       "subtotal": "Subtotal",
       "total_duties": "Tributos de importação",
       "total_refunded": "Reembolsado"
-      "total_duties": "Tributos de importação"
     }
   },
   "gift_cards": {
@@ -537,17 +518,6 @@
       "send_on_label": "Enviar em (opcional)",
       "expanded": "Formulário de destinatário do cartão-presente expandido",
       "collapsed": "Formulário de destinatário do cartão-presente recolhido"
-      "title": "Aqui está seu cartão-presente da {{ shop }} no valor de {{ value }}.",
-      "subtext": "Seu cartão-presente",
-      "gift_card_code": "Código do cartão-presente",
-      "shop_link": "Voltar à loja",
-      "remaining_html": "{{ balance }} restantes",
-      "add_to_apple_wallet": "Adicionar ao app Wallet da Apple",
-      "qr_image_alt": "Código QR — faça a leitura para resgatar o cartão-presente",
-      "copy_code": "Copiar código",
-      "expired": "Expirado",
-      "copy_code_success": "Código copiado",
-      "print_gift_card": "Imprimir"
     }
   }
 }

@@ -24,48 +24,6 @@
         },
         "shadow": {
           "label": "Schatten"
-        "colors_solid_button_labels": {
-          "label": "Beschriftung für durchgehende Schaltfläche",
-          "info": "Wird als Vordergrundfarbe für Akzentfarben verwendet."
-        },
-        "colors_accent_1": {
-          "label": "Akzent 1",
-          "info": "Wird als Hintergrund für durchgehende Schaltflächen verwendet."
-        },
-        "colors_accent_2": {
-          "label": "Akzent 2"
-        },
-        "header__1": {
-          "content": "Primärfarben"
-        },
-        "header__2": {
-          "content": "Sekundärfarben"
-        },
-        "colors_text": {
-          "label": "Text",
-          "info": "Wird als Vordergrundfarbe für Hintergrundfarben verwendet."
-        },
-        "colors_outline_button_labels": {
-          "label": "Umriss-Schaltfläche",
-          "info": "Wird auch für Textlinks verwendet."
-        },
-        "colors_background_1": {
-          "label": "Hintergrund 1"
-        },
-        "colors_background_2": {
-          "label": "Hintergrund 2"
-        },
-        "gradient_accent_1": {
-          "label": "Akzent 1 Farbverlauf"
-        },
-        "gradient_accent_2": {
-          "label": "Akzent 2 Farbverlauf"
-        },
-        "gradient_background_1": {
-          "label": "Hintergrund 1 Farbverlauf"
-        },
-        "gradient_background_2": {
-          "label": "Hintergrund 2 Farbverlauf"
         }
       }
     },
@@ -91,20 +49,6 @@
         },
         "body_scale": {
           "label": "Schriftgrößenmaßstab"
-        }
-      }
-    },
-    "styles": {
-      "name": "Symbole",
-      "settings": {
-        "accent_icons": {
-          "options__3": {
-            "label": "Umriss-Schaltfläche"
-          },
-          "options__4": {
-            "label": "Text"
-          },
-          "label": "Farbe"
         }
       }
     },
@@ -162,15 +106,6 @@
         "paragraph": "Warenkorb- und Checkout-Preise zeigen immer Währungscodes an. Beispiel: 1,00 USD."
       }
     },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Favicon-Bild",
-          "info": "Wird auf 32 x 32 Pixel verkleinert"
-        }
-      }
-    },
     "layout": {
       "name": "Layout",
       "settings": {
@@ -179,14 +114,12 @@
         },
         "spacing_sections": {
           "label": "Platz zwischen Vorlagenabschnitten"
-          "label": "Vertikaler Abstand zwischen Abschnitten"
         },
         "header__grid": {
           "content": "Raster"
         },
         "paragraph__grid": {
           "content": "Wirkt sich auf Bereiche mit mehreren Spalten oder Reihen aus."
-          "content": "Wirkt sich auf Bereiche mit einem Layout mit mehreren Spalten aus."
         },
         "spacing_grid_horizontal": {
           "label": "Horizontaler Abstand"
@@ -212,18 +145,6 @@
         "predictive_search_show_price": {
           "label": "Produktpreis anzeigen",
           "info": "Sichtbar, wenn Suchvorschläge aktiviert sind."
-          "content": "Produktvorschläge"
-        },
-        "predictive_search_enabled": {
-          "label": "Produktvorschläge aktivieren"
-        },
-        "predictive_search_show_vendor": {
-          "label": "Anbieter anzeigen",
-          "info": "Sichtbar, wenn Produktvorschläge aktiviert sind."
-        },
-        "predictive_search_show_price": {
-          "label": "Preis anzeigen",
-          "info": "Sichtbar, wenn Produktvorschläge aktiviert sind."
         }
       }
     },
@@ -458,21 +379,6 @@
       },
       "spacing": "Abstand",
       "colors": {
-        "accent_1": {
-          "label": "Akzent 1"
-        },
-        "accent_2": {
-          "label": "Akzent 2"
-        },
-        "background_1": {
-          "label": "Hintergrund 1"
-        },
-        "background_2": {
-          "label": "Hintergrund 2"
-        },
-        "inverse": {
-          "label": "Invertiert"
-        },
         "label": "Farbschema",
         "has_cards_info": "Aktualisiere deine Theme-Einstellungen, um das Farbschema der Karte zu ändern."
       },
@@ -642,10 +548,6 @@
           "settings": {
             "image": {
               "label": "Bild"
-            },
-            "image_padding": {
-              "label": "Original-Bildverhältnis verwenden",
-              "info": "Wähle dies aus, wenn du nicht möchtest, dass dein Bild zurechtgeschnitten wird."
             }
           }
         },
@@ -681,10 +583,6 @@
               "label": "URL",
               "info": "Video wird in einem Pop-up abgespielt, wenn der Abschnitt andere Blöcke enthält.",
               "placeholder": "YouTube- oder Vimeo-URL verwenden"
-            },
-            "image_padding": {
-              "label": "Original-Bildverhältnis verwenden",
-              "info": "Wähle dies aus, wenn du nicht möchtest, dass dein Bild zurechtgeschnitten wird."
             },
             "description": {
               "label": "Video-Alt-Text",
@@ -764,8 +662,6 @@
         "custom_liquid": {
           "label": "Liquid-Code",
           "info": "Füge App-Snippets oder anderen Code hinzu, um fortgeschrittene Anpassungen zu erstellen. [Mehr Informationen](https:\/\/shopify.dev\/docs\/api\/liquid)"
-          "label": "Benutzerdefiniertes Liquid",
-          "info": "Füge App-Snippets oder anderen Liquid-Code hinzu, um fortgeschrittene Anpassungen vorzunehmen."
         }
       },
       "presets": {
@@ -964,7 +860,6 @@
         "header__2": {
           "content": "Social Media-Symbole",
           "info": "Um deine Social-Media-Konten anzuzeigen, verlinke sie in deinen [Theme-Einstellungen](\/editor?context=theme&category=social%20media)."
-          "info": "Um deine Social Media-Konten anzuzeigen, verlinke sie in deinen Theme-Einstellungen."
         },
         "show_social": {
           "label": "Social-Media-Symbole anzeigen"
@@ -974,7 +869,6 @@
         },
         "header__4": {
           "info": "Gehe zu den [Markteinstellungen](\/admin\/settings\/markets), um ein Land \/ eine Region hinzuzufügen."
-          "info": "Gehe zu den [Zahlungseinstellungen](\/admin\/settings\/payments), um ein Land \/ eine Region hinzuzufügen."
         },
         "enable_country_selector": {
           "label": "Auswahl für Land\/Region aktivieren"
@@ -1016,13 +910,6 @@
     "header": {
       "name": "Header",
       "settings": {
-        "logo": {
-          "label": "Logo-Bild"
-        },
-        "logo_width": {
-          "unit": "Pixel",
-          "label": "Breite des benutzerdefinierten Logos"
-        },
         "logo_position": {
           "label": "Desktop-Logoposition",
           "options__1": {
@@ -1043,10 +930,6 @@
         },
         "show_line_separator": {
           "label": "Trennlinie anzeigen"
-        },
-        "enable_sticky_header": {
-          "label": "Fixierten Header aktivieren",
-          "info": "Der Header wird auf dem Bildschirm angezeigt, wenn der Kunde nach oben scrollt."
         },
         "margin_bottom": {
           "label": "Unterer Rand"
@@ -1132,24 +1015,11 @@
         "stack_images_on_mobile": {
           "label": "Gestapelte Bilder auf Mobilgeräten"
         },
-        "color_scheme": {
-          "info": "Sichtbar, wenn Container angezeigt wird."
-        },
-        "stack_images_on_mobile": {
-          "label": "Gestapelte Bilder auf Mobilgeräten"
-        },
-        "adapt_height_first_image": {
-          "label": "Abschnittshöhe an Größe des ersten Bildes anpassen",
-          "info": "Überschreibt bei Überprüfung die Einstellung für die Höhe des Bild-Banners."
-        },
         "show_text_box": {
           "label": "Container auf dem Desktop anzeigen"
         },
         "image_overlay_opacity": {
           "label": "Deckkraft der Bildüberlagerung"
-        },
-        "header": {
-          "content": "Mobiles Layout"
         },
         "show_text_below": {
           "label": "Container auf Mobilgerät anzeigen"
@@ -1169,15 +1039,6 @@
           "options__4": {
             "label": "Groß"
           }
-            "label": "Klein"
-          },
-          "options__2": {
-            "label": "Mittel"
-          },
-          "options__3": {
-            "label": "Groß"
-          },
-          "info": "Verwende für Bilder ein Seitenverhältnis von 3:2 für optimale Ergebnisse. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__1": {
@@ -1316,9 +1177,6 @@
           "options__4": {
             "label": "Groß"
           }
-            "label": "Groß"
-          },
-          "label": "Bildhöhe"
         },
         "layout": {
           "options__1": {
@@ -1602,7 +1460,6 @@
         "enable_filtering": {
           "label": "Filtern aktivieren",
           "info": "Passe Filter mit der App Search & Discovery an. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
-          "info": "[Filter](\/admin\/menus) anpassen"
         },
         "enable_sorting": {
           "label": "Sortieren aktivieren"
@@ -1634,7 +1491,6 @@
         "enable_tags": {
           "label": "Filtern aktivieren",
           "info": "Passe Filter mit der App Search & Discovery an. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
-          "info": "[Filter anpassen](\/admin\/menus)"
         },
         "show_rating": {
           "label": "Produktbewertung anzeigen",
@@ -1745,12 +1601,6 @@
         },
         "logo_help": {
           "content": "Bearbeite dein Logo in den Theme-Einstellungen."
-        "logo": {
-          "label": "Logo-Bild"
-        },
-        "logo_max_width": {
-          "label": "Breite des benutzerdefinierten Logos",
-          "unit": "Pixel"
         }
       }
     },
@@ -1993,15 +1843,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Benutzerdefiniertes Liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Benutzerdefiniertes Liquid",
-              "info": "Füge App-Snippets oder anderen Liquid-Code hinzu, um fortgeschrittene Anpassungen vorzunehmen."
-            }
-          }
-        },
         "rating": {
           "name": "Produktbewertung",
           "settings": {
@@ -2175,7 +2016,6 @@
         },
         "media_size": {
           "label": "Medienbreite für Desktop",
-          "label": "Mediengröße für Desktop",
           "options__1": {
             "label": "Klein"
           },
@@ -2440,60 +2280,6 @@
         "name": "Seite"
       }
     },
-    "product-recommendations": {
-      "name": "Produktempfehlungen",
-      "settings": {
-        "heading": {
-          "label": "Überschrift"
-        },
-        "header__2": {
-          "content": "Produktkarte"
-        },
-        "image_ratio": {
-          "label": "Bildverhältnis",
-          "options__1": {
-            "label": "An Bild anpassen"
-          },
-          "options__2": {
-            "label": "Porträt"
-          },
-          "options__3": {
-            "label": "Quadratisch"
-          }
-        },
-        "show_secondary_image": {
-          "label": "Hover-Effekt mit zweitem Bild"
-        },
-        "show_vendor": {
-          "label": "Anbieter anzeigen"
-        },
-        "paragraph__1": {
-          "content": "Dynamische Empfehlungen nutzen Bestell- und Produktinformationen, um sich mit der Zeit zu verändern und zu verbessern. [Weitere Informationen](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
-        },
-        "show_rating": {
-          "label": "Produktbewertung anzeigen",
-          "info": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
-        },
-        "columns_desktop": {
-          "label": "Anzahl der Spalten auf dem Desktop"
-        },
-        "header_mobile": {
-          "content": "Mobiles Layout"
-        },
-        "columns_mobile": {
-          "label": "Anzahl der Spalten auf mobilem Gerät",
-          "options__1": {
-            "label": "1 Spalte"
-          },
-          "options__2": {
-            "label": "2 Spalten"
-          }
-        },
-        "products_to_show": {
-          "label": "Maximal anzuzeigende Produkte"
-        }
-      }
-    },
     "rich-text": {
       "name": "Rich Text",
       "settings": {
@@ -2625,8 +2411,6 @@
         "video_url": {
           "label": "URL",
           "info": "YouTube- oder Vimeo-URL verwenden"
-          "placeholder": "YouTube- oder Vimeo-URL verwenden",
-          "info": "Video wird auf der Seite abgespielt."
         },
         "description": {
           "label": "Video-Alt-Text",
@@ -2756,19 +2540,6 @@
               "options__3": {
                 "label": "Großbuchstaben"
               }
-        "custom_liquid": {
-          "name": "Benutzerdefiniertes Liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Benutzerdefiniertes Liquid"
-            }
-          }
-        },
-        "rating": {
-          "name": "Produktbewertung",
-          "settings": {
-            "paragraph": {
-              "content": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-product-rating)"
             }
           }
         }
@@ -2822,9 +2593,6 @@
         },
         "image_overlay_opacity": {
           "label": "Deckkraft der Bildüberlagerung"
-        },
-        "color_scheme": {
-          "info": "Sichtbar, wenn Container angezeigt wird."
         },
         "show_text_below": {
           "label": "Auf Mobilgeräten Inhalt unterhalb der Bilder anzeigen",
@@ -2985,7 +2753,6 @@
         },
         "change_slides_speed": {
           "label": "Anzeige der nächsten Folie alle"
-          "label": "Slides überall ändern"
         },
         "show_text_below": {
           "label": "Auf Mobilgeräten Inhalt unterhalb der Bilder anzeigen"
@@ -3070,9 +2837,6 @@
             },
             "image_overlay_opacity": {
               "label": "Deckkraft der Bildüberlagerung"
-            },
-            "color_scheme": {
-              "info": "Sichtbar, wenn Container angezeigt wird."
             },
             "text_alignment_mobile": {
               "label": "Mobile Inhaltsausrichtung",

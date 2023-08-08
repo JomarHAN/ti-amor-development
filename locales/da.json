@@ -43,11 +43,6 @@
       "view": "Se indkøbskurv ({{ count }})",
       "item_added": "Varen er lagt i indkøbskurven",
       "view_empty_cart": "Se indkøbskurv"
-      "search": "Søg"
-    },
-    "cart": {
-      "view": "Se min indkøbskurv ({{ count }})",
-      "item_added": "Varen er lagt i indkøbskurven"
     },
     "share": {
       "copy_to_clipboard": "Kopiér link",
@@ -114,7 +109,6 @@
       "add_to_cart": "Læg i indkøbskurv",
       "description": "Beskrivelse",
       "on_sale": "Udsalg",
-      "product_variants": "Produktvarianter",
       "quantity": {
         "label": "Antal",
         "input_label": "Antal for {{ product }}",
@@ -125,7 +119,6 @@
         "multiples_of": "Intervaller på {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> i indkøbskurven",
         "note": "Se mængderegler"
-        "decrease": "Reducer antallet for {{ product }}"
       },
       "price": {
         "from_price_html": "Fra {{ price }}",
@@ -181,7 +174,6 @@
         "price_range": "{{ minimum }} – {{ maximum }}"
       },
       "product_variants": "Produktvarianter"
-      "choose_product_options": "Vælg muligheder for {{ product_name }}"
     },
     "modal": {
       "label": "Mediegalleri"
@@ -220,7 +212,6 @@
   "templates": {
     "search": {
       "no_results": "Der blev ikke fundet nogen resultater for “{{ terms }}”. Kontrollér stavemåden, eller brug et andet ord eller udtryk.",
-      "no_results": "Der blev ikke fundet nogen resultater for \"{{ terms }}\". Kontrollér stavemåden, eller brug et andet ord eller udtryk.",
       "results_with_count": {
         "one": "{{ count }} resultat",
         "other": "{{ count }} resultater"
@@ -246,10 +237,6 @@
       "results_suggestions_with_count": {
         "one": "{{ count }} forslag",
         "other": "{{ count }} forslag"
-      "search_for": "Søg efter \"{{ terms }}\"",
-      "results_with_count_and_term": {
-        "one": "Der blev fundet {{ count }} resultat for “{{ terms }}”",
-        "other": "Der blev fundet {{ count }} resultater for “{{ terms }}”"
       }
     },
     "cart": {
@@ -285,8 +272,6 @@
       "title": "Din indkøbskurv",
       "caption": "Varer i indkøbskurv",
       "remove_title": "Fjern {{ title }}",
-      "subtotal": "Subtotal",
-      "new_subtotal": "Ny subtotal",
       "note": "Særlige instruktioner til ordre",
       "checkout": "Gå til betaling",
       "empty": "Din indkøbskurv er tom",
@@ -296,10 +281,6 @@
       "taxes_included_but_shipping_at_checkout": "Inklusive skat. Levering og rabatter beregnes ved betaling",
       "taxes_included_and_shipping_policy_html": "Inklusive skat. <a href=\"{{ link }}\">Levering<\/a> og rabatter beregnes ved betaling.",
       "taxes_and_shipping_at_checkout": "Skatter, rabatter og levering beregnes ved betaling",
-      "taxes_and_shipping_policy_at_checkout_html": "Afgifter og <a href=\"{{ link }}\">levering<\/a> beregnes ved betaling",
-      "taxes_included_but_shipping_at_checkout": "Inklusive afgifter. Levering beregnes ved betaling",
-      "taxes_included_and_shipping_policy_html": "Inklusive afgifter. <a href=\"{{ link }}\">Levering<\/a> beregnes ved betaling.",
-      "taxes_and_shipping_at_checkout": "Afgifter og levering beregnes ved betaling",
       "headings": {
         "product": "Produkt",
         "price": "Pris",
@@ -314,7 +295,6 @@
       },
       "estimated_total": "Estimeret totalbeløb",
       "new_estimated_total": "Ny estimeret totalbeløb"
-      }
     },
     "footer": {
       "payment": "Betalingsmetoder"
@@ -494,7 +474,6 @@
       "subtotal": "Subtotal",
       "total_duties": "Told",
       "total_refunded": "Refunderet"
-      "total_duties": "Told"
     }
   },
   "gift_cards": {
@@ -527,17 +506,6 @@
       "send_on_label": "Send (valgfrit)",
       "expanded": "Formularen til modtager af gavekort er vist",
       "collapsed": "Formularen til modtager af gavekort er skjult"
-      "title": "Her er dit gavekort på {{ value }} til {{ shop }}!",
-      "subtext": "Dit gavekort",
-      "gift_card_code": "Gavekortskode",
-      "shop_link": "Tilbage til butikken",
-      "remaining_html": "Der resterer {{ balance }}",
-      "add_to_apple_wallet": "Føj til Apple Wallet",
-      "qr_image_alt": "QR-kode – scan for at indløse gavekort",
-      "copy_code": "Kopiér kode",
-      "expired": "Udløbet",
-      "copy_code_success": "Koden er blevet kopieret",
-      "print_gift_card": "Udskriv"
     }
   }
 }

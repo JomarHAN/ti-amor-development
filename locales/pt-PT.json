@@ -43,11 +43,6 @@
       "view": "Ver carrinho ({{ count }})",
       "item_added": "Item adicionado ao seu carrinho",
       "view_empty_cart": "Ver carrinho"
-      "search": "Pesquisar"
-    },
-    "cart": {
-      "view": "Ver o meu carrinho ({{ count }})",
-      "item_added": "Item adicionado ao seu carrinho"
     },
     "share": {
       "copy_to_clipboard": "Copiar ligação",
@@ -126,7 +121,6 @@
         "multiples_of": "Incrementos de {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> no carrinho",
         "note": "Ver regras de quantidade"
-        "decrease": "Diminuir a quantidade de {{ product }}"
       },
       "price": {
         "from_price_html": "A partir de {{ price }}",
@@ -181,7 +175,6 @@
         "price_at_each": "a {{ price }}\/ea",
         "price_range": "{{ minimum }} - {{ maximum }}"
       }
-      "choose_product_options": "Escolha opções para {{ product_name }}"
     },
     "modal": {
       "label": "Galeria de conteúdo multimédia"
@@ -254,7 +247,6 @@
       },
       "suggestions": "Sugestões",
       "pages": "Páginas"
-      }
     },
     "cart": {
       "cart": "Carrinho"
@@ -290,8 +282,6 @@
       "title": "O seu carrinho",
       "caption": "Itens do carrinho",
       "remove_title": "Eliminar {{ title }}",
-      "subtotal": "Subtotal",
-      "new_subtotal": "Novo subtotal",
       "note": "Instruções especiais da encomenda",
       "checkout": "Finalizar a compra",
       "empty": "O seu carrinho está vazio",
@@ -301,10 +291,6 @@
       "taxes_included_but_shipping_at_checkout": "Imposto incluído, envio e descontos calculados na finalização da compra",
       "taxes_included_and_shipping_policy_html": "Imposto incluído. <a href=\"{{ link }}\">Envio<\/a> e descontos calculados na finalização da compra.",
       "taxes_and_shipping_at_checkout": "Impostos, descontos e envio calculados na finalização da compra",
-      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">shipping<\/a> calculados na finalização da compra",
-      "taxes_included_but_shipping_at_checkout": "Imposto incluído e envio calculado na finalização da compra",
-      "taxes_included_and_shipping_policy_html": "Imposto incluído. <a href=\"{{ link }}\">Envio<\/a> calculado na finalização da compra.",
-      "taxes_and_shipping_at_checkout": "Impostos e envio calculados na finalização da compra",
       "headings": {
         "product": "Produto",
         "price": "Preço",
@@ -319,7 +305,6 @@
       },
       "estimated_total": "Total estimado",
       "new_estimated_total": "Novo total estimado"
-      }
     },
     "footer": {
       "payment": "Métodos de pagamento"
@@ -471,7 +456,6 @@
       "subtotal": "Subtotal",
       "total_duties": "Encargos",
       "total_refunded": "Reembolsado"
-      "total_duties": "Encargos"
     },
     "orders": {
       "title": "Histórico de encomendas",
@@ -534,17 +518,6 @@
       "send_on_label": "Enviar a (opcional)",
       "expanded": "Formulário de destinatário do cartão de oferta expandido",
       "collapsed": "Formulário de destinatário do cartão de oferta fechado"
-      "title": "Aqui está o seu cartão de oferta de {{ value }} para {{ shop }}!",
-      "subtext": "O seu cartão de oferta",
-      "gift_card_code": "Código do cartão de oferta",
-      "shop_link": "Continuar a comprar",
-      "remaining_html": "{{ balance }} restante",
-      "add_to_apple_wallet": "Adicionar a Apple Wallet",
-      "qr_image_alt": "Código QR - digitalizar para resgatar cartão de oferta",
-      "copy_code": "Copiar código",
-      "expired": "Expirado",
-      "copy_code_success": "Código copiado com sucesso",
-      "print_gift_card": "Imprimir"
     }
   }
 }

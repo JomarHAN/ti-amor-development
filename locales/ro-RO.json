@@ -43,11 +43,6 @@
       "view": "Vezi coșul ({{ count }})",
       "item_added": "Articolul a fost adăugat în coș",
       "view_empty_cart": "Vezi coșul"
-      "search": "Căutați"
-    },
-    "cart": {
-      "view": "Vizualizare coș ({{ count }})",
-      "item_added": "Articolul a fost adăugat în coș"
     },
     "share": {
       "copy_to_clipboard": "Copiați linkul",
@@ -133,7 +128,6 @@
         "multiples_of": "Incrementuri de {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> în coș",
         "note": "Vezi regulile legate de cantitate"
-        "decrease": "Reduceți cantitatea pentru {{ product }}"
       },
       "price": {
         "from_price_html": "Începând cu {{ price }}",
@@ -181,7 +175,6 @@
         "price_at_each": "la {{ price }}\/buc.",
         "price_range": "{{ minimum }} - {{ maximum }}"
       }
-      "choose_product_options": "Alege opțiunile pentru {{ product_name }}"
     },
     "modal": {
       "label": "Galerie media"
@@ -254,7 +247,6 @@
       },
       "suggestions": "Sugestii",
       "pages": "Pagini"
-      }
     },
     "cart": {
       "cart": "Coș"
@@ -290,8 +282,6 @@
       "title": "Coșul dvs.",
       "caption": "Articole din coș",
       "remove_title": "Eliminați {{ title }}",
-      "subtotal": "Subtotal",
-      "new_subtotal": "Subtotal nou",
       "note": "Instrucțiuni speciale legate de comandă",
       "checkout": "Finalizați comanda",
       "empty": "Coșul dvs. este gol",
@@ -301,10 +291,6 @@
       "taxes_included_but_shipping_at_checkout": "Taxele sunt incluse, iar transportul și reducerile sunt calculate la finalizarea comenzii",
       "taxes_included_and_shipping_policy_html": "Taxele sunt incluse. <a href=\"{{ link }}\">Transportul<\/a> și reducerile sunt calculate la finalizarea comenzii.",
       "taxes_and_shipping_at_checkout": "Taxele, reducerile și transportul sunt calculate la finalizarea comenzii",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"{{ link }}\">transportul<\/a> sunt calculate la finalizarea comenzii",
-      "taxes_included_but_shipping_at_checkout": "Taxele sunt incluse și transportul este calculat la finalizarea comenzii",
-      "taxes_included_and_shipping_policy_html": "Taxele sunt incluse. <a href=\"{{ link }}\">Transportul<\/a> este calculat la finalizarea comenzii.",
-      "taxes_and_shipping_at_checkout": "Taxele și transportul sunt calculate la finalizarea comenzii",
       "update": "Actualizați",
       "headings": {
         "product": "Produs",
@@ -319,7 +305,6 @@
       },
       "estimated_total": "Total estimat",
       "new_estimated_total": "Noul total estimat"
-      }
     },
     "footer": {
       "payment": "Metode de plată"
@@ -501,7 +486,6 @@
       "subtotal": "Subtotal",
       "total_duties": "Taxe vamale",
       "total_refunded": "Rambursată"
-      "total_duties": "Taxe vamale"
     }
   },
   "gift_cards": {
@@ -534,17 +518,6 @@
       "send_on_label": "Trimite pe (opțional)",
       "expanded": "Formularul pentru destinatarul cardului cadou este extins",
       "collapsed": "Formularul pentru destinatarul cardului cadou este restrâns"
-      "title": "Iată cardul dvs. cadou de {{ value }} pentru {{ shop }}!",
-      "subtext": "Cardul dvs. cadou",
-      "gift_card_code": "Codul cardului cadou",
-      "shop_link": "Continuați cumpărăturile",
-      "remaining_html": "Mai aveți {{ balance }}",
-      "add_to_apple_wallet": "Adăugați la Apple Wallet",
-      "qr_image_alt": "Cod QR – scanați-l ca să valorificați cardul cadou",
-      "copy_code": "Copiați codul",
-      "expired": "Expirat",
-      "copy_code_success": "Codul a fost copiat cu succes",
-      "print_gift_card": "Imprimați"
     }
   }
 }

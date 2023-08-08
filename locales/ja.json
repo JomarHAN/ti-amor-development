@@ -43,11 +43,6 @@
       "view": "カートを見る ({{ count }})",
       "item_added": "カートにアイテムが追加されました",
       "view_empty_cart": "カートを見る"
-      "search": "検索"
-    },
-    "cart": {
-      "view": "カートを見る ({{ count }})",
-      "item_added": "カートにアイテムが追加されました"
     },
     "share": {
       "copy_to_clipboard": "リンクをコピー",
@@ -125,7 +120,6 @@
         "multiples_of": "{{ quantity }}の増分",
         "in_cart_html": "カートに<span class=\"quantity-cart\">{{ quantity }}<\/span>",
         "note": "数量ルールを見る"
-        "decrease": "{{ product }}の数量を減らす"
       },
       "price": {
         "from_price_html": "{{ price }}から",
@@ -180,10 +174,6 @@
         "price_at_each": "{{ price }}\/ユニットで",
         "price_range": "{{ minimum }}～{{ maximum }}"
       }
-      "include_taxes": "税込み。",
-      "shipping_policy_html": "<a href=\"{{ link }}\">配送料<\/a>はチェックアウト時に計算されます。",
-      "choose_options": "オプションを選択",
-      "choose_product_options": "{{ product_name }}のオプションを選択する"
     },
     "modal": {
       "label": "メディアギャラリー"
@@ -248,7 +238,6 @@
       },
       "suggestions": "候補",
       "pages": "ページ"
-      }
     },
     "cart": {
       "cart": "カート"
@@ -283,8 +272,6 @@
       "title": "あなたのカート",
       "caption": "カートアイテム",
       "remove_title": "{{ title }}を削除する",
-      "subtotal": "小計",
-      "new_subtotal": "新しい小計",
       "note": "注文に関する特別な指示・備考",
       "checkout": "ご購入手続きへ",
       "empty": "カートは空です",
@@ -294,10 +281,6 @@
       "taxes_included_but_shipping_at_checkout": "税込みで、配送料とディスカウントはチェックアアウト時に計算されます",
       "taxes_included_and_shipping_policy_html": "税込。<a href=\"{{ link }}\">配送料<\/a>とディスカウントはチエックアウト時に計算されます",
       "taxes_and_shipping_at_checkout": "税、ディスカウント、および配送料はチエックアウト時に計算されます",
-      "taxes_and_shipping_policy_at_checkout_html": "税と<a href=\"{{ link }}\">配送料<\/a>は購入手続き時に計算されます",
-      "taxes_included_but_shipping_at_checkout": "税込みで、配送料は購入手続き時に計算されます",
-      "taxes_included_and_shipping_policy_html": "税込み。<a href=\"{{ link }}\">配送料<\/a>は購入手続き時に計算されます。",
-      "taxes_and_shipping_at_checkout": "税と配送料は購入手続き時に計算されます",
       "headings": {
         "product": "商品",
         "price": "価格",
@@ -312,7 +295,6 @@
       },
       "estimated_total": "見積もり合計",
       "new_estimated_total": "新たな推定総額"
-      }
     },
     "footer": {
       "payment": "決済方法"
@@ -410,7 +392,6 @@
       "company": "会社",
       "address1": "住所1",
       "address2": "建物名、部屋番号など",
-      "address2": "住所2",
       "city": "市",
       "country": "国\/地域",
       "province": "都道府県",
@@ -493,7 +474,6 @@
       "subtotal": "小計",
       "total_duties": "関税",
       "total_refunded": "返金済"
-      "total_duties": "関税"
     }
   },
   "gift_cards": {
@@ -526,17 +506,6 @@
       "send_on_label": "送信日 (任意)",
       "expanded": "ギフトカードカードの受取人フォームを展開しました",
       "collapsed": "ギフトカードカードの受取人フォームを折りたたみました"
-      "title": "{{ shop }}で利用可能な{{ value }}のギフトカードです。",
-      "subtext": "あなたのギフトカード",
-      "gift_card_code": "ギフトカードコード",
-      "shop_link": "買い物を続ける",
-      "remaining_html": "残高: {{ balance }}",
-      "add_to_apple_wallet": "Apple Walletに追加する",
-      "qr_image_alt": "QRコード: スキャンしてギフトカードにクーポンを使う",
-      "copy_code": "コードをコピーする",
-      "expired": "期限切れ",
-      "copy_code_success": "コードは正常にコピーされました",
-      "print_gift_card": "印刷する"
     }
   }
 }

@@ -43,11 +43,6 @@
       "view": "Prikaži košarico ({{ count }})",
       "item_added": "Artikel je dodan v košarico",
       "view_empty_cart": "Prikaži košarico"
-      "search": "Iskanje"
-    },
-    "cart": {
-      "view": "Prikaži mojo košarico ({{ count }})",
-      "item_added": "Artikel je dodan v košarico"
     },
     "share": {
       "copy_to_clipboard": "Kopiraj povezavo",
@@ -134,7 +129,6 @@
         "multiples_of": "V korakih po {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> v košarici",
         "note": "Prikaži pravila glede količine"
-        "decrease": "Pomanjšaš količino za izdelek {{ product }}"
       },
       "price": {
         "from_price_html": "Od {{ price }}",
@@ -182,7 +176,6 @@
         "price_at_each": "po ceni {{ price }}\/kos",
         "price_range": "{{ minimum }}–{{ maximum }}"
       }
-      "choose_product_options": "Izberite možnosti za izdelek {{ product_name }}"
     },
     "modal": {
       "label": "Galerija predstavnostnih vsebin"
@@ -263,7 +256,6 @@
       },
       "suggestions": "Predlogi",
       "pages": "Strani"
-      }
     },
     "cart": {
       "cart": "Košarica"
@@ -300,8 +292,6 @@
       "title": "Vaša košarica",
       "caption": "Izdelki v košarici",
       "remove_title": "Odstrani izdelek {{ title }}",
-      "subtotal": "Vmesna vsota",
-      "new_subtotal": "Nova vmesna vsota",
       "note": "Posebna navodila za naročilo",
       "checkout": "Zaključi nakup",
       "empty": "Vaša košarica je prazna",
@@ -311,10 +301,6 @@
       "taxes_included_but_shipping_at_checkout": "Vključeni davek ter strošek dostave in popusti se obračunajo ob zaključku nakupa",
       "taxes_included_and_shipping_policy_html": "Davek vključen. <a href=\"{{ link }}\">Strošek dostave<\/a> in popusti se obračunajo ob zaključku nakupa.",
       "taxes_and_shipping_at_checkout": "Davki, popusti in strošek dostave se obračunajo ob zaključku nakupa",
-      "taxes_and_shipping_policy_at_checkout_html": "Davki in <a href=\"{{ link }}\">dostava<\/a> se obračunajo ob zaključku nakupa",
-      "taxes_included_but_shipping_at_checkout": "Vključen davek in dostava se obračunata ob zaključku nakupa",
-      "taxes_included_and_shipping_policy_html": "Vključno z davkom. <a href=\"{{ link }}\">Dostava<\/a> se obračuna ob zaključku nakupa.",
-      "taxes_and_shipping_at_checkout": "Davki in dostava se obračunajo ob zaključku nakupa",
       "update": "Posodobitev",
       "headings": {
         "product": "Izdelek",
@@ -329,7 +315,6 @@
       },
       "estimated_total": "Predvideni skupni znesek",
       "new_estimated_total": "Nov predvideni skupni znesek"
-      }
     },
     "footer": {
       "payment": "Načini plačila"
@@ -483,7 +468,6 @@
       "subtotal": "Vmesna vsota",
       "total_duties": "Carinske dajatve",
       "total_refunded": "Povrnjeno"
-      "total_duties": "Carinske dajatve"
     },
     "orders": {
       "title": "Zgodovina naročil",
@@ -546,17 +530,6 @@
       "send_on_label": "Pošlji na datum (izbirno)",
       "expanded": "Razširjen obrazec prejemnika darilnega bona",
       "collapsed": "Strnjen obrazec prejemnika darilnega bona"
-      "title": "Tukaj je vaš darilni bon za trgovino {{ shop }} v znesku {{ value }}.",
-      "subtext": "Vaš darilni bon",
-      "gift_card_code": "Koda darilnega bona",
-      "shop_link": "Nadaljevanje z nakupovanjem",
-      "remaining_html": "Preostaja {{ balance }}",
-      "add_to_apple_wallet": "Dodaj v Apple Wallet",
-      "qr_image_alt": "Koda QR – optično jo preberite za unovčenje darilnega bona",
-      "copy_code": "Kopiraj kodo",
-      "expired": "Poteklo",
-      "copy_code_success": "Koda je uspešno kopirana",
-      "print_gift_card": "Natisni"
     }
   }
 }

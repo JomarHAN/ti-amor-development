@@ -24,48 +24,6 @@
         },
         "shadow": {
           "label": "Sombra"
-        "colors_solid_button_labels": {
-          "label": "Etiqueta do botão sólido",
-          "info": "Utilizado como cor do primeiro plano em cores de destaque."
-        },
-        "colors_accent_1": {
-          "label": "Destaque 1",
-          "info": "Utilizado para fundo do botão sólido."
-        },
-        "colors_accent_2": {
-          "label": "Destaque 2"
-        },
-        "header__1": {
-          "content": "Cores primárias"
-        },
-        "header__2": {
-          "content": "Cores secundárias"
-        },
-        "colors_text": {
-          "label": "Texto",
-          "info": "Utilizado como cor do primeiro plano em cores de fundo."
-        },
-        "colors_outline_button_labels": {
-          "label": "Botão de contorno",
-          "info": "Também utilizado para ligações de texto."
-        },
-        "colors_background_1": {
-          "label": "Fundo 1"
-        },
-        "colors_background_2": {
-          "label": "Fundo 2"
-        },
-        "gradient_accent_1": {
-          "label": "Gradiente de destaque 1"
-        },
-        "gradient_accent_2": {
-          "label": "Gradiente de destaque 2"
-        },
-        "gradient_background_1": {
-          "label": "Gradiente de plano de fundo 1"
-        },
-        "gradient_background_2": {
-          "label": "Gradiente de plano de fundo 2"
         }
       }
     },
@@ -91,20 +49,6 @@
         },
         "body_scale": {
           "label": "Escala de tamanho do tipo de letra"
-        }
-      }
-    },
-    "styles": {
-      "name": "Ícones",
-      "settings": {
-        "accent_icons": {
-          "options__3": {
-            "label": "Botão de contorno"
-          },
-          "options__4": {
-            "label": "Texto"
-          },
-          "label": "Cor"
         }
       }
     },
@@ -162,15 +106,6 @@
         "paragraph": "Os preços de finalização da compra e carrinho mostram sempre os códigos de moeda. Exemplo: 1,00 USD."
       }
     },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Imagem Favicon",
-          "info": "Será reduzida para 32 x 32 px"
-        }
-      }
-    },
     "layout": {
       "name": "Esquema",
       "settings": {
@@ -179,14 +114,12 @@
         },
         "spacing_sections": {
           "label": "Espaço entre as secções do modelo"
-          "label": "Espaço vertical entre secções"
         },
         "header__grid": {
           "content": "Grelha"
         },
         "paragraph__grid": {
           "content": "Afeta áreas com várias colunas ou linhas."
-          "content": "Afeta áreas com um esquema de várias colunas."
         },
         "spacing_grid_horizontal": {
           "label": "Espaço horizontal"
@@ -212,18 +145,6 @@
         "predictive_search_show_price": {
           "label": "Mostrar o preço do produto",
           "info": "Visível quando as sugestões de pesquisa estão ativas."
-          "content": "Sugestões de produto"
-        },
-        "predictive_search_enabled": {
-          "label": "Ativar sugestões de produto"
-        },
-        "predictive_search_show_vendor": {
-          "label": "Mostrar fornecedor",
-          "info": "Visível quando as sugestões de produto estão ativas."
-        },
-        "predictive_search_show_price": {
-          "label": "Mostrar preço",
-          "info": "Visível quando as sugestões de produto estão ativas."
         }
       }
     },
@@ -458,21 +379,6 @@
       },
       "spacing": "Espaçamento",
       "colors": {
-        "accent_1": {
-          "label": "Destaque 1"
-        },
-        "accent_2": {
-          "label": "Destaque 2"
-        },
-        "background_1": {
-          "label": "Fundo 1"
-        },
-        "background_2": {
-          "label": "Fundo 2"
-        },
-        "inverse": {
-          "label": "Invertido"
-        },
         "label": "Esquema de cores",
         "has_cards_info": "Para alterar o esquema de cores do cartão, atualize as suas definições de tema."
       },
@@ -641,10 +547,6 @@
           "settings": {
             "image": {
               "label": "Imagem"
-            },
-            "image_padding": {
-              "label": "Utilizar proporção da imagem original",
-              "info": "Selecione caso não pretenda que a sua imagem seja cortada."
             }
           },
           "name": "Imagem"
@@ -680,10 +582,6 @@
               "label": "URL",
               "info": "O video será reproduzido numa janela pop-up se a secção contiver outros blocos.",
               "placeholder": "Usar um URL de YouTube ou Vimeo"
-            },
-            "image_padding": {
-              "label": "Utilizar proporção da imagem original",
-              "info": "Selecione caso não pretenda que a sua imagem seja cortada."
             },
             "description": {
               "label": "Texto alternativo do vídeo",
@@ -764,8 +662,6 @@
         "custom_liquid": {
           "label": "Código Liquid",
           "info": "Adicione fragmentos de aplicação ou outro código para criar personalizações avançadas. [Saber mais](https:\/\/shopify.dev\/docs\/api\/liquid)"
-          "label": "Liquid personalizado",
-          "info": "Adicione fragmentos de aplicação ou outro código Liquid para criar personalizações avançadas."
         }
       },
       "presets": {
@@ -964,7 +860,6 @@
         "header__2": {
           "content": "Ícones de redes sociais",
           "info": "Para apresentar as suas contas de redes sociais, associe-as nas [definições do tema](\/editor?context=theme&category=social%20media)."
-          "info": "Para apresentar as suas contas de redes sociais, associe-as nas definições do tema."
         },
         "show_social": {
           "label": "Mostrar ícones de redes sociais"
@@ -974,7 +869,6 @@
         },
         "header__4": {
           "info": "Para adicionar um país\/região, vá a [definições de mercado.](\/admin\/settings\/markets)"
-          "info": "Para adicionar um país\/região, vá a [definições de pagamento.](\/admin\/settings\/payments)"
         },
         "enable_country_selector": {
           "label": "Ativar seletor de país\/região"
@@ -1016,13 +910,6 @@
     "header": {
       "name": "Cabeçalho",
       "settings": {
-        "logo": {
-          "label": "Imagem do logótipo"
-        },
-        "logo_width": {
-          "unit": "px",
-          "label": "Largura de logótipo personalizada"
-        },
         "logo_position": {
           "label": "Posição do logótipo de desktop",
           "options__1": {
@@ -1043,10 +930,6 @@
         },
         "show_line_separator": {
           "label": "Mostrar linha do separador"
-        },
-        "enable_sticky_header": {
-          "label": "Ativar cabeçalho fixo",
-          "info": "O cabeçalho é apresentado no ecrã enquanto os clientes deslocam para cima."
         },
         "margin_bottom": {
           "label": "Margem inferior"
@@ -1132,24 +1015,11 @@
         "stack_images_on_mobile": {
           "label": "Empilhar imagens em dispositivos móveis"
         },
-        "color_scheme": {
-          "info": "Visível quando o recetor é exibido."
-        },
-        "stack_images_on_mobile": {
-          "label": "Empilhar imagens em dispositivos móveis"
-        },
-        "adapt_height_first_image": {
-          "label": "Adaptar altura da secção ao tamanho da primeira imagem",
-          "info": "Quando marcada, substitui a definição de altura do banner da imagem."
-        },
         "show_text_box": {
           "label": "Mostrar recetores no desktop"
         },
         "image_overlay_opacity": {
           "label": "Opacidade da sobreposição da imagem"
-        },
-        "header": {
-          "content": "Esquema para dispositivo móvel"
         },
         "show_text_below": {
           "label": "Mostrar recetor em dispositivo móvel"
@@ -1169,15 +1039,6 @@
           "options__4": {
             "label": "Grande"
           }
-            "label": "Pequeno"
-          },
-          "options__2": {
-            "label": "Médio"
-          },
-          "options__3": {
-            "label": "Grande"
-          },
-          "info": "Para obter os melhores resultados, use uma imagem com uma proporção de 3:2. [Saber mais](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__1": {
@@ -1316,9 +1177,6 @@
           "options__4": {
             "label": "Grande"
           }
-            "label": "Grande"
-          },
-          "label": "Altura da imagem"
         },
         "layout": {
           "options__1": {
@@ -1627,11 +1485,6 @@
         "enable_filtering": {
           "label": "Ativar filtragem",
           "info": "Personalize filtros com a aplicação Search & Discovery. [Saber mais](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
-          "info": "[Personalizar filtros](\/admin\/menus)"
-        },
-        "enable_filtering": {
-          "label": "Ativar filtragem",
-          "info": "Personalizar [filtros](\/admin\/menus)"
         },
         "enable_sorting": {
           "label": "Ativar ordenação"
@@ -1748,12 +1601,6 @@
         },
         "logo_help": {
           "content": "Edite o seu logótipo nas definições de tema."
-        "logo": {
-          "label": "Imagem do logótipo"
-        },
-        "logo_max_width": {
-          "label": "Largura de logótipo personalizada",
-          "unit": "px"
         }
       }
     },
@@ -1997,15 +1844,6 @@
         "description": {
           "name": "Descrição"
         },
-        "custom_liquid": {
-          "name": "Liquid personalizado",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid personalizado",
-              "info": "Adicione fragmentos de aplicação ou outro código Liquid para criar personalizações avançadas."
-            }
-          }
-        },
         "rating": {
           "name": "Classificação do produto",
           "settings": {
@@ -2179,7 +2017,6 @@
         },
         "media_size": {
           "label": "Largura do conteúdo multimédia para computador",
-          "label": "Tamanho dos conteúdos multimédia para desktop",
           "options__1": {
             "label": "Pequeno"
           },
@@ -2443,60 +2280,6 @@
         "name": "Página"
       }
     },
-    "product-recommendations": {
-      "name": "Recomendações de produtos",
-      "settings": {
-        "heading": {
-          "label": "Título"
-        },
-        "header__2": {
-          "content": "Cartão de produtos"
-        },
-        "image_ratio": {
-          "label": "Proporção de imagem",
-          "options__1": {
-            "label": "Adaptar à imagem"
-          },
-          "options__2": {
-            "label": "Retrato"
-          },
-          "options__3": {
-            "label": "Quadrado"
-          }
-        },
-        "show_secondary_image": {
-          "label": "Mostrar a segunda imagem ao passar o rato"
-        },
-        "show_vendor": {
-          "label": "Mostrar fornecedor"
-        },
-        "paragraph__1": {
-          "content": "As recomendações dinâmicas utilizam informações de encomenda e de produto para alterar e melhorar ao longo do tempo. [Saber mais](https:\/\/help.shopify.com\/themes\/development\/recommended-products)"
-        },
-        "show_rating": {
-          "label": "Mostrar classificação do produto",
-          "info": "Para mostrar uma classificação, adicione uma aplicação de classificação de produto. [Saber mais](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-recommendations-section-settings)"
-        },
-        "columns_desktop": {
-          "label": "Número de colunas no ambiente de trabalho"
-        },
-        "header_mobile": {
-          "content": "Esquema para dispositivo móvel"
-        },
-        "columns_mobile": {
-          "label": "Número de colunas em dispositivo móvel",
-          "options__1": {
-            "label": "1 coluna"
-          },
-          "options__2": {
-            "label": "2 colunas"
-          }
-        },
-        "products_to_show": {
-          "label": "Máximo de produtos a apresentar"
-        }
-      }
-    },
     "rich-text": {
       "name": "Texto formatado",
       "settings": {
@@ -2628,8 +2411,6 @@
         "video_url": {
           "label": "URL",
           "info": "Usar um URL do YouTube ou Vimeo"
-          "placeholder": "Usar um URL de YouTube ou Vimeo",
-          "info": "O vídeo é reproduzido na página."
         },
         "description": {
           "label": "Texto alternativo do vídeo",
@@ -2759,19 +2540,6 @@
               "options__3": {
                 "label": "Maiúsculas"
               }
-        "custom_liquid": {
-          "name": "Liquid personalizado",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid personalizado"
-            }
-          }
-        },
-        "rating": {
-          "name": "Classificação do produto",
-          "settings": {
-            "paragraph": {
-              "content": "Para mostrar uma classificação, adicione uma aplicação de classificação de produto. [Saber mais](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-product-rating)"
             }
           }
         }
@@ -2825,9 +2593,6 @@
         },
         "image_overlay_opacity": {
           "label": "Opacidade da sobreposição da imagem"
-        },
-        "color_scheme": {
-          "info": "Visível quando o recetor é exibido."
         },
         "show_text_below": {
           "label": "Mostrar conteúdo por baixo da imagem em dispositivos móveis",
@@ -3072,9 +2837,6 @@
             },
             "image_overlay_opacity": {
               "label": "Opacidade da sobreposição da imagem"
-            },
-            "color_scheme": {
-              "info": "Visível quando o recetor é exibido."
             },
             "text_alignment_mobile": {
               "label": "Alinhamento do conteúdo em dispositivos móveis",

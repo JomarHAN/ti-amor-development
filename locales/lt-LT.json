@@ -43,11 +43,6 @@
       "view": "Peržiūrėti krepšelį ({{ count }})",
       "item_added": "Prekė įdėta į jūsų krepšelį",
       "view_empty_cart": "Peržiūrėti krepšelį"
-      "search": "Ieškoti"
-    },
-    "cart": {
-      "view": "Peržiūrėti mano krepšelį ({{ count }})",
-      "item_added": "Prekė įdėta į jūsų krepšelį"
     },
     "share": {
       "copy_to_clipboard": "Kopijuoti nuorodą",
@@ -134,7 +129,6 @@
         "multiples_of": "Kiekis didėja kas {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> vnt. krepšelyje",
         "note": "Peržiūrėti kiekių taisykles"
-        "decrease": "Sumažinti {{ product }} kiekį"
       },
       "price": {
         "from_price_html": "Nuo {{ price }}",
@@ -182,7 +176,6 @@
         "price_at_each": "po {{ price }}\/vnt.",
         "price_range": "{{ minimum }}–{{ maximum }}"
       }
-      "choose_product_options": "Rinktis {{ product_name }} variantus"
     },
     "modal": {
       "label": "Medijų galerija"
@@ -263,7 +256,6 @@
       },
       "suggestions": "Pasiūlymai",
       "pages": "Puslapiai"
-      }
     },
     "cart": {
       "cart": "Krepšelis"
@@ -300,8 +292,6 @@
       "title": "Jūsų krepšelis",
       "caption": "Krepšelio turinys",
       "remove_title": "Pašalinti {{ title }}",
-      "subtotal": "Tarpinė suma",
-      "new_subtotal": "Nauja tarpinė suma",
       "note": "Specialūs nurodymai dėl užsakymo",
       "checkout": "Atsiskaityti",
       "empty": "Jūsų krepšelis tuščias",
@@ -311,10 +301,6 @@
       "taxes_included_but_shipping_at_checkout": "Mokesčiai įtraukti, o siuntimo išlaidos ir nuolaidos apskaičiuojamos atsiskaitant",
       "taxes_included_and_shipping_policy_html": "Mokesčiai įtraukti. <a href=\"{{ link }}\">Siuntimo išlaidos<\/a> ir nuolaidos apskaičiuojamos atsiskaitant.",
       "taxes_and_shipping_at_checkout": "Mokesčiai, nuolaidos ir siuntimo išlaidos apskaičiuojami atsiskaitant",
-      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\">siuntimo išlaidos<\/a> apskaičiuojami atsiskaitant",
-      "taxes_included_but_shipping_at_checkout": "Mokesčiai įtraukti, o siuntimo išlaidos apskaičiuojamos atsiskaitant",
-      "taxes_included_and_shipping_policy_html": "Mokesčiai įtraukti. <a href=\"{{ link }}\">Siuntimo išlaidos<\/a> apskaičiuojamos atsiskaitant.",
-      "taxes_and_shipping_at_checkout": "Mokesčiai ir siuntimo išlaidos apskaičiuojami atsiskaitant",
       "update": "Atnaujinti",
       "headings": {
         "product": "Gaminys",
@@ -329,7 +315,6 @@
       },
       "estimated_total": "Apskaičiuota bendra suma",
       "new_estimated_total": "Nauja apskaičiuota bendra suma"
-      }
     },
     "footer": {
       "payment": "Mokėjimo būdai"
@@ -483,7 +468,6 @@
       "subtotal": "Tarpinė suma",
       "total_duties": "Muito mokesčiai",
       "total_refunded": "Kompensuota"
-      "total_duties": "Muito mokesčiai"
     },
     "orders": {
       "title": "Užsakymų istorija",
@@ -546,17 +530,6 @@
       "send_on_label": "Išsiuntimo data (pasirinktinai)",
       "expanded": "Išskleista dovanų kortelės gavėjo forma",
       "collapsed": "Suskleista dovanų kortelės gavėjo forma"
-      "title": "Štai jūsų {{ value }} vertės parduotuvės „{{ shop }}“ dovanų kortelė!",
-      "subtext": "Jūsų dovanų kortelė",
-      "gift_card_code": "Dovanų kortelės kodas",
-      "shop_link": "Tęsti apsipirkimą",
-      "remaining_html": "Liko {{ balance }}",
-      "add_to_apple_wallet": "Pridėti prie „Apple Wallet“",
-      "qr_image_alt": "QR kodas — nuskaitykite ir panaudokite dovanų kortelę",
-      "copy_code": "Kopijuoti kodą",
-      "expired": "Nebegalioja",
-      "copy_code_success": "Kodą pavyko nukopijuoti",
-      "print_gift_card": "Spausdinti"
     }
   }
 }

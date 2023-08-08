@@ -43,11 +43,6 @@
       "view": "Pokaż koszyk ({{ count }})",
       "item_added": "Pozycję dodano do koszyka",
       "view_empty_cart": "Pokaż koszyk"
-      "search": "Szukaj"
-    },
-    "cart": {
-      "view": "Pokaż koszyk ({{ count }})",
-      "item_added": "Pozycję dodano do koszyka"
     },
     "share": {
       "copy_to_clipboard": "Kopiuj link",
@@ -116,8 +111,6 @@
       "add_to_cart": "Dodaj do koszyka",
       "description": "Opis",
       "on_sale": "W promocji",
-      "on_sale": "Sprzedaż",
-      "product_variants": "Warianty produktów",
       "share": "Udostępnij ten produkt",
       "sold_out": "Wyprzedane",
       "unavailable": "Niedostępny",
@@ -135,13 +128,11 @@
         "multiples_of": "Przyrost o {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> w koszyku",
         "note": "Wyświetl reguły ilości"
-        "decrease": "Zmniejsz ilość dla {{ product }}"
       },
       "price": {
         "from_price_html": "Od {{ price }}",
         "regular_price": "Cena regularna",
         "sale_price": "Cena promocyjna",
-        "sale_price": "Cena sprzedaży",
         "unit_price": "Cena jednostkowa"
       },
       "pickup_availability": {
@@ -185,7 +176,6 @@
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "product_variants": "Warianty produktów"
-      "choose_product_options": "Wybierz opcje dla {{ product_name }}"
     },
     "modal": {
       "label": "Galeria multimediów"
@@ -266,7 +256,6 @@
       },
       "suggestions": "Sugestie",
       "pages": "Strony"
-      }
     },
     "cart": {
       "cart": "Koszyk"
@@ -303,8 +292,6 @@
       "title": "Twój koszyk",
       "caption": "Pozycje w koszyku",
       "remove_title": "Usuń {{ title }}",
-      "subtotal": "Suma częściowa",
-      "new_subtotal": "Nowa suma częściowa",
       "note": "Specjalne instrukcje do zamówienia",
       "checkout": "Realizuj zakup",
       "empty": "Twój koszyk jest pusty",
@@ -314,10 +301,6 @@
       "taxes_included_but_shipping_at_checkout": "Podatek wliczony w cenę, koszty wysyłki i rabaty są obliczane przy realizacji zakupu",
       "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. Koszt wysyłki obliczony przy realizacji zakupu. <a href=\"{{ link }}\">Wysyłka<\/a> i rabaty obliczone przy realizacji zakupu.",
       "taxes_and_shipping_at_checkout": "Podatki, rabaty i wysyłki obliczane przy realizacji zakupu",
-      "taxes_and_shipping_policy_at_checkout_html": "Podatki i koszty <a href=\"{{ link }}\">wysyłki<\/a> obliczane przy realizacji zakupu",
-      "taxes_included_but_shipping_at_checkout": "Podatek wliczony w cenę i koszty wysyłki obliczone przy realizacji zakupu",
-      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\">Koszt wysyłki<\/a> obliczony przy realizacji zakupu.",
-      "taxes_and_shipping_at_checkout": "Podatki i koszty wysyłki obliczane przy realizacji zakupu",
       "update": "Aktualizuj",
       "headings": {
         "product": "Produkt",
@@ -332,7 +315,6 @@
       },
       "estimated_total": "Przewidywana suma",
       "new_estimated_total": "Nowa przewidywana suma"
-      }
     },
     "footer": {
       "payment": "Metody płatności"
@@ -486,13 +468,11 @@
       "subtotal": "Suma częściowa",
       "total_duties": "Cła",
       "total_refunded": "Zwrócono koszty"
-      "total_duties": "Cła"
     },
     "orders": {
       "title": "Historia zamówień",
       "order_number": "Zamówienie",
       "order_number_link": "Nr zamówienia {{ number }}",
-      "order_number_link": "Numer zamówienia {{ number }}",
       "date": "Data",
       "payment_status": "Status płatności",
       "fulfillment_status": "Status realizacji",
@@ -550,14 +530,6 @@
       "send_on_label": "Wyślij dnia (opcjonalnie)",
       "expanded": "Rozwinięty formularz odbiorcy karty prezentowej",
       "collapsed": "Zwinięty formularz odbiorcy karty prezentowej"
-      "shop_link": "Kontynuuj zakupy",
-      "remaining_html": "Pozostało {{ balance }}",
-      "add_to_apple_wallet": "Dodaj do Apple Wallet",
-      "qr_image_alt": "Kod QR – zeskanuj, aby wykorzystać kartę prezentową",
-      "copy_code": "Skopiuj kod",
-      "expired": "Utraciła ważność",
-      "copy_code_success": "Kod został skopiowany",
-      "print_gift_card": "Drukuj"
     }
   }
 }

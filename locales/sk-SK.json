@@ -43,11 +43,6 @@
       "view": "Zobraziť košík ({{ count }})",
       "item_added": "Položka sa pridala do vášho košíka",
       "view_empty_cart": "Zobraziť košík"
-      "search": "Vyhľadať"
-    },
-    "cart": {
-      "view": "Zobraziť môj košík ({{ count }})",
-      "item_added": "Položka sa pridala do vášho košíka"
     },
     "share": {
       "copy_to_clipboard": "Kopírovať prepojenie",
@@ -134,7 +129,6 @@
         "multiples_of": "Prírastky po {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> ks v košíku",
         "note": "Zobrazenie pravidiel týkajúcich sa množstva"
-        "decrease": "Znížiť množstvo pre {{ product }}"
       },
       "price": {
         "from_price_html": "Od {{ price }}",
@@ -182,7 +176,6 @@
         "price_at_each": "{{ price }}\/kus",
         "price_range": "{{ minimum }} – {{ maximum }}"
       }
-      "choose_product_options": "Vyberte možnosti pre: {{ product_name }}"
     },
     "modal": {
       "label": "Galéria médií"
@@ -299,8 +292,6 @@
       "title": "Váš košík",
       "caption": "Položky v košíku",
       "remove_title": "Odstrániť {{ title }}",
-      "subtotal": "Medzisúčet",
-      "new_subtotal": "Nový medzisúčet",
       "note": "Špeciálne pokyny k objednávke",
       "checkout": "Platba",
       "empty": "Váš košík je prázdny",
@@ -310,10 +301,6 @@
       "taxes_included_but_shipping_at_checkout": "Dane sa zahrnú a doprava a zľavy sa vypočítajú pri platbe",
       "taxes_included_and_shipping_policy_html": "Vrátane dane. <a href=\"{{ link }}\">Doprava<\/a> a zľavy sa vypočítajú pri platbe.",
       "taxes_and_shipping_at_checkout": "Dane, zľavy a doprava sa vypočítajú pri platbe",
-      "taxes_and_shipping_policy_at_checkout_html": "Dane a <a href=\"{{ link }}\">doprava<\/a> sa vypočítajú pri platbe",
-      "taxes_included_but_shipping_at_checkout": "Dane sa zahrnú a doprava sa vypočíta pri platbe",
-      "taxes_included_and_shipping_policy_html": "Vrátane dane. <a href=\"{{ link }}\">Doprava<\/a> sa vypočíta v pokladni.",
-      "taxes_and_shipping_at_checkout": "Dane a doprava sa vypočítajú pri platbe",
       "update": "Aktualizovať",
       "headings": {
         "product": "Produkt",
@@ -328,7 +315,6 @@
       },
       "estimated_total": "Odhadovaná celková suma",
       "new_estimated_total": "Nová odhadovaná celková suma"
-      }
     },
     "footer": {
       "payment": "Spôsoby platby"
@@ -512,7 +498,6 @@
       "subtotal": "Medzisúčet",
       "total_duties": "Clá",
       "total_refunded": "Refundovaná suma"
-      "total_duties": "Clá"
     }
   },
   "gift_cards": {
@@ -545,17 +530,6 @@
       "send_on_label": "Dátum odoslania (voliteľné)",
       "expanded": "Rozbalený formulár pre príjemcu darčekového poukazu",
       "collapsed": "Zbalený formulár pre príjemcu darčekového poukazu"
-      "title": "Váš darčekový poukaz v hodnote {{ value }} do obchodu {{ shop }}.",
-      "subtext": "Váš darčekový poukaz",
-      "gift_card_code": "Kód darčekového poukazu",
-      "shop_link": "Pokračovať v nákupe",
-      "remaining_html": "Zostáva {{ balance }}",
-      "add_to_apple_wallet": "Pridať do aplikácie Apple Wallet",
-      "qr_image_alt": "QR kód – naskenujte ho a uplatnite si darčekový poukaz",
-      "copy_code": "Kopírovať kód",
-      "expired": "Platnosť uplynula",
-      "copy_code_success": "Kód sa úspešne skopíroval",
-      "print_gift_card": "Tlačiť"
     }
   }
 }

@@ -43,11 +43,6 @@
       "view": "Sepeti görüntüle ({{ count }})",
       "item_added": "Ürün sepetinize eklendi",
       "view_empty_cart": "Sepeti görüntüle"
-      "search": "Ara"
-    },
-    "cart": {
-      "view": "Sepeti göster ({{ count }})",
-      "item_added": "Ürün sepetinize eklendi"
     },
     "share": {
       "copy_to_clipboard": "Bağlantıyı kopyala",
@@ -114,7 +109,6 @@
       "add_to_cart": "Sepete ekle",
       "description": "Açıklama",
       "on_sale": "İndirim",
-      "product_variants": "Ürün varyasyonları",
       "quantity": {
         "label": "Adet",
         "input_label": "{{ product }} için adet",
@@ -125,7 +119,6 @@
         "multiples_of": "Artış değeri: {{ quantity }}",
         "in_cart_html": "Sepette: <span class=\"quantity-cart\">{{ quantity }}<\/span>",
         "note": "Adet kurallarını görüntüle"
-        "decrease": "{{ product }} için adedi azaltın"
       },
       "price": {
         "from_price_html": "Başlangıç fiyatı: {{ price }}",
@@ -181,7 +174,6 @@
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "product_variants": "Ürün varyasyonları"
-      "choose_product_options": "{{ product_name }} için seçenekleri belirle"
     },
     "modal": {
       "label": "Medya galerisi"
@@ -280,8 +272,6 @@
       "title": "Sepetiniz",
       "caption": "Sepet ürünleri",
       "remove_title": "{{ title }} kanalını kaldır",
-      "subtotal": "Alt toplam",
-      "new_subtotal": "Yeni alt toplam",
       "note": "Siparişe özel talimatlar",
       "checkout": "Ödeme",
       "empty": "Sepetiniz boş",
@@ -291,10 +281,6 @@
       "taxes_included_but_shipping_at_checkout": "Vergi dahildir ve kargo ile indirimler, ödeme sayfasında hesaplanır",
       "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo<\/a> ve indirimler, ödeme sayfasında hesaplanır.",
       "taxes_and_shipping_at_checkout": "Vergiler, indirimler ve kargo, ödeme sayfasında hesaplanır",
-      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">kargo<\/a>, ödeme sayfasında hesaplanır",
-      "taxes_included_but_shipping_at_checkout": "Vergi dahildir ve kargo, ödeme sayfasında hesaplanır",
-      "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır.",
-      "taxes_and_shipping_at_checkout": "Vergiler ve kargo, ödeme sayfasında hesaplanır",
       "headings": {
         "product": "Ürün",
         "price": "Fiyat",
@@ -309,7 +295,6 @@
       },
       "estimated_total": "Tahmini toplam",
       "new_estimated_total": "Yeni tahmini toplam"
-      }
     },
     "footer": {
       "payment": "Ödeme yöntemleri"
@@ -489,7 +474,6 @@
       "subtotal": "Alt toplam",
       "total_duties": "Gümrük vergileri",
       "total_refunded": "Para iadesi yapıldı"
-      "total_duties": "Gümrük vergileri"
     }
   },
   "gift_cards": {
@@ -522,17 +506,6 @@
       "send_on_label": "Şu tarihte gönder (isteğe bağlı)",
       "expanded": "Hediye kartı alıcısı formu genişletildi",
       "collapsed": "Hediye kartı alıcısı formu daraltıldı"
-      "title": "İşte {{ shop }} için {{ value }} hediye kartınız!",
-      "subtext": "Hediye kartınız",
-      "gift_card_code": "Hediye kartı kodu",
-      "shop_link": "Alışverişe devam et",
-      "remaining_html": "{{ balance }} kaldı",
-      "add_to_apple_wallet": "Apple Wallet'a ekle",
-      "qr_image_alt": "QR kodu: Hediye kartını kullanmak için tarayın",
-      "copy_code": "Kodu kopyala",
-      "expired": "Süresi sona erdi",
-      "copy_code_success": "Kod başarıyla kopyalandı",
-      "print_gift_card": "Yazdır"
     }
   }
 }

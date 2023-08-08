@@ -43,11 +43,6 @@
       "view": "Покажи количката ({{ count }})",
       "item_added": "Артикулът е добавен в количката",
       "view_empty_cart": "Покажи количката"
-      "search": "Търсене"
-    },
-    "cart": {
-      "view": "Покажи количката ми ({{ count }})",
-      "item_added": "Артикулът е добавен в количката"
     },
     "share": {
       "copy_to_clipboard": "Копиране на връзката",
@@ -114,7 +109,6 @@
       "add_to_cart": "Добавяне към количката",
       "description": "Описание",
       "on_sale": "Разпродажба",
-      "product_variants": "Варианти на продукта",
       "quantity": {
         "label": "Количество",
         "input_label": "Количество за {{ product }}",
@@ -125,7 +119,6 @@
         "multiples_of": "Стъпки от {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> в количката",
         "note": "Преглед на правилата за количества"
-        "decrease": "Намаляване на количеството за {{ product }}"
       },
       "price": {
         "from_price_html": "От {{ price }}",
@@ -181,7 +174,6 @@
         "price_range": "{{ minimum }} – {{ maximum }}"
       },
       "product_variants": "Варианти на продукта"
-      "choose_product_options": "Изберете опции за {{ product_name }}"
     },
     "modal": {
       "label": "Мултимедийна галерия"
@@ -246,7 +238,6 @@
       },
       "suggestions": "Предложения",
       "pages": "Страници"
-      }
     },
     "cart": {
       "cart": "Количка"
@@ -281,8 +272,6 @@
       "title": "Вашата количка",
       "caption": "Артикули в количката",
       "remove_title": "Премахване на {{ title }}",
-      "subtotal": "Междинна сума",
-      "new_subtotal": "Нова междинна сума",
       "checkout": "Преминаване към плащане",
       "empty": "Количката ви е празна.",
       "cart_error": "При актуализирането на количката ви възникна грешка. Опитайте отново.",
@@ -291,10 +280,6 @@
       "taxes_included_but_shipping_at_checkout": "Данъците са включени, а доставката и отстъпките се изчисляват при плащане",
       "taxes_included_and_shipping_policy_html": "С включени данъци. <a href=\"{{ link }}\">Доставката<\/a> и отстъпките се изчисляват при плащане.",
       "taxes_and_shipping_at_checkout": "Данъците, отстъпките и доставката се изчисляват при плащане",
-      "taxes_and_shipping_policy_at_checkout_html": "Данъците и <a href=\"{{ link }}\">доставката<\/a> се изчисляват при плащане",
-      "taxes_included_but_shipping_at_checkout": "Данъците са включени, а доставката се изчислява при плащане",
-      "taxes_included_and_shipping_policy_html": "С включени данъци. <a href=\"{{ link }}\">Доставката<\/a> се изчислява при плащане.",
-      "taxes_and_shipping_at_checkout": "Данъците и доставката се изчисляват при плащане",
       "headings": {
         "product": "Продукт",
         "price": "Цена",
@@ -310,7 +295,6 @@
       },
       "estimated_total": "Очаквана обща сума",
       "new_estimated_total": "Нова очаквана обща сума"
-      }
     },
     "footer": {
       "payment": "Начини на плащане"
@@ -490,7 +474,6 @@
       "subtotal": "Междинна сума",
       "total_duties": "Мито",
       "total_refunded": "Възстановени"
-      "total_duties": "Мито"
     }
   },
   "gift_cards": {
@@ -523,17 +506,6 @@
       "send_on_label": "Изпращане на (незадължително)",
       "expanded": "Формулярът за получател на ваучер за подарък е разгънат",
       "collapsed": "Формулярът за получател на ваучер за подарък е свит"
-      "title": "Получавате ваучер за подарък на стойност {{ value }} за {{ shop }}!",
-      "gift_card_code": "Код на ваучер за подарък",
-      "shop_link": "Продължете да пазарувате",
-      "remaining_html": "остава: {{ balance }}",
-      "add_to_apple_wallet": "Добавяне към Apple Wallet",
-      "qr_image_alt": "QR код – сканирайте го, за да използвате ваучера за подарък",
-      "copy_code": "копирай кода",
-      "expired": "Изтекъл",
-      "copy_code_success": "Кодът е копиран успешно",
-      "print_gift_card": "Печат",
-      "subtext": "Вашият ваучер за подарък"
     }
   }
 }

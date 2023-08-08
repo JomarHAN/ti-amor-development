@@ -43,11 +43,6 @@
       "view": "ดูตะกร้าสินค้า ({{ count }})",
       "item_added": "รายการที่เพิ่มในตะกร้าสินค้าของคุณ",
       "view_empty_cart": "ดูตะกร้าสินค้า"
-      "search": "ค้นหา"
-    },
-    "cart": {
-      "view": "ดูรถตะกร้าสินค้าของฉัน ({{ count }})",
-      "item_added": "รายการที่เพิ่มในตะกร้าสินค้าของคุณ"
     },
     "share": {
       "copy_to_clipboard": "คัดลอกลิงก์",
@@ -72,7 +67,6 @@
     "close": "ปิด",
     "unit_price_separator": "ต่อ",
     "vendor": "เวนเดอร์:",
-    "vendor": "ผู้ขาย:",
     "error": "ผิดพลาด",
     "refresh_page": "การเลือกตัวเลือกจะส่งผลให้มีการรีเฟรชทั้งหน้า",
     "link_messages": {
@@ -115,8 +109,6 @@
       "add_to_cart": "เพิ่มลงในตะกร้าสินค้า",
       "description": "คำอธิบาย",
       "on_sale": "ลดราคา",
-      "on_sale": "การลดราคา",
-      "product_variants": "ตัวเลือกสินค้า",
       "quantity": {
         "label": "ปริมาณ",
         "input_label": "ปริมาณสำหรับ {{ product }}",
@@ -127,13 +119,11 @@
         "multiples_of": "เพิ่มขึ้นได้ทีละ {{ quantity }}",
         "in_cart_html": "จำนวน <span class=\"quantity-cart\">{{ quantity }}<\/span> ในตะกร้าสินค้า",
         "note": "ดูกฎเกี่ยวกับจำนวน"
-        "decrease": "ลดปริมาณสำหรับ {{ product }}"
       },
       "price": {
         "from_price_html": "จาก {{ price }}",
         "regular_price": "ราคาปกติ",
         "sale_price": "ราคาโปรโมชัน",
-        "sale_price": "ราคาช่วงลดราคา",
         "unit_price": "ราคาต่อหน่วย"
       },
       "share": "แชร์สินค้ารายการนี้",
@@ -143,10 +133,6 @@
       "video_exit_message": "{{ title }} เปิดวิดีโอแบบเต็มหน้าจอในหน้าต่างเดียวกัน",
       "xr_button": "ดูในพื้นที่ของคุณ",
       "xr_button_label": "ดูในพื้นที่ของคุณ โหลดรายการในหน้าต่างความเป็นจริงเสริม",
-      "vendor": "ผู้ขาย",
-      "video_exit_message": "{{ title }} เปิดวิดีโอแบบเต็มหน้าจอในหน้าต่างเดียวกัน",
-      "xr_button": "ดูในพื้นที่ของคุณ",
-      "xr_button_label": "ดูในพื้นที่ของคุณ โหลดรายการในหน้าต่างการสร้างวัตถุเสมือน",
       "pickup_availability": {
         "view_store_info": "ดูข้อมูลร้านค้า",
         "check_other_stores": "ตรวจสอบความพร้อมที่ร้านค้าอื่นๆ",
@@ -188,7 +174,6 @@
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "product_variants": "ตัวเลือกสินค้า"
-      "choose_product_options": "เลือกตัวเลือกสำหรับ {{ product_name }}"
     },
     "modal": {
       "label": "แกลเลอรีสื่อ"
@@ -253,7 +238,6 @@
       },
       "suggestions": "คำแนะนำ",
       "pages": "หน้า"
-      }
     },
     "cart": {
       "cart": "ตะกร้าสินค้า"
@@ -288,8 +272,6 @@
       "title": "ตะกร้าสินค้าของคุณ",
       "caption": "รายการสินค้าในตะกร้า",
       "remove_title": "ลบ {{ title }}",
-      "subtotal": "ยอดรวมย่อย",
-      "new_subtotal": "ยอดรวมย่อยใหม่",
       "note": "คำแนะนำพิเศษสำหรับคำสั่งซื้อ",
       "checkout": "ชำระเงิน",
       "empty": "ตะกร้าสินค้าของคุณว่างอยู่",
@@ -298,9 +280,6 @@
       "taxes_and_shipping_policy_at_checkout_html": "ระบบจะคำนวณภาษี ส่วนลด และ<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ในขั้นตอนการชำระเงิน",
       "taxes_included_but_shipping_at_checkout": "ภาษีที่ใส่และค่าจัดส่งและส่วนลดที่คำนวณไว้ในขั้นตอนการชำระเงิน",
       "taxes_included_and_shipping_policy_html": "รวมภาษีแล้ว ระบบจะคำนวณ<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>และส่วนลดในขั้นตอนการชำระเงิน",
-      "taxes_and_shipping_policy_at_checkout_html": "ระบบจะคำนวณภาษีและ<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ในขั้นตอนการชำระเงิน",
-      "taxes_included_but_shipping_at_checkout": "ระบบจะรวมภาษีและคำนวณค่าจัดส่งในขั้นตอนการชำระเงิน",
-      "taxes_included_and_shipping_policy_html": "รวมภาษีแล้ว <a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
       "taxes_and_shipping_at_checkout": "ระบบจะคำนวณภาษีและค่าจัดส่งในขั้นตอนการชำระเงิน",
       "headings": {
         "product": "สินค้า",
@@ -316,7 +295,6 @@
       },
       "estimated_total": "ยอดทั้งหมดโดยประมาณ",
       "new_estimated_total": "ยอดรวมโดยประมาณใหม่"
-      }
     },
     "footer": {
       "payment": "วิธีการชำระเงิน"
@@ -496,7 +474,6 @@
       "subtotal": "ยอดรวม",
       "total_duties": "อากร",
       "total_refunded": "คืนเงินแล้ว"
-      "total_duties": "อากร"
     }
   },
   "gift_cards": {
@@ -529,17 +506,6 @@
       "send_on_label": "ส่งเมื่อ (ไม่บังคับ)",
       "expanded": "ขยายแบบฟอร์มผู้รับบัตรของขวัญแล้ว",
       "collapsed": "ย่อแบบฟอร์มผู้รับบัตรของขวัญแล้ว"
-      "title": "นี่คือบัตรของขวัญมูลค่า {{ value }} สำหรับใช้ที่ {{ shop }}!",
-      "subtext": "บัตรของขวัญของคุณ",
-      "gift_card_code": "รหัสบัตรของขวัญ",
-      "shop_link": "เลือกซื้อต่อ",
-      "remaining_html": "คงเหลือ {{ balance }}",
-      "add_to_apple_wallet": "เพิ่มลงใน Apple Wallet",
-      "qr_image_alt": "คิวอาร์โค้ด — สแกนเพื่อแลกใช้บัตรของขวัญ",
-      "copy_code": "คัดลอกโค้ด",
-      "expired": "หมดอายุแล้ว",
-      "copy_code_success": "คัดลอกรหัสสำเร็จ",
-      "print_gift_card": "พิมพ์"
     }
   }
 }

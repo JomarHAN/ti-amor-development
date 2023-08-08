@@ -43,11 +43,6 @@
       "view": "Kosár megtekintése ({{ count }})",
       "item_added": "Betettük a terméket a kosárba",
       "view_empty_cart": "Kosár megtekintése"
-      "search": "Keresés"
-    },
-    "cart": {
-      "view": "Kosár megtekintése ({{ count }})",
-      "item_added": "Betettük a terméket a kosárba"
     },
     "share": {
       "copy_to_clipboard": "Hivatkozás másolása",
@@ -125,7 +120,6 @@
         "multiples_of": "Növekvés: {{ quantity }}",
         "in_cart_html": "Kosárban lévő mennyiség: <span class=\"quantity-cart\">{{ quantity }}<\/span>",
         "note": "Mennyiségi szabályok megtekintése"
-        "decrease": "{{ product }} mennyiségének csökkentése"
       },
       "price": {
         "from_price_html": "Legalacsonyabb ár: {{ price }}",
@@ -180,7 +174,6 @@
         "price_at_each": "{{ price }}\/db",
         "price_range": "{{ minimum }} – {{ maximum }}"
       }
-      "choose_product_options": "Termékváltozatok – {{ product_name }}"
     },
     "modal": {
       "label": "Médiatár"
@@ -245,7 +238,6 @@
       },
       "suggestions": "Javaslatok",
       "pages": "Oldal"
-      }
     },
     "cart": {
       "cart": "Kosár"
@@ -280,8 +272,6 @@
       "title": "Kosár",
       "caption": "Kosárban lévő termékek",
       "remove_title": "{{ title }} eltávolítása",
-      "subtotal": "Részösszeg:",
-      "new_subtotal": "Új részösszeg:",
       "note": "Megjegyzések a rendeléssel kapcsolatban",
       "checkout": "Megrendelés",
       "empty": "A kosarad üres",
@@ -291,10 +281,6 @@
       "taxes_included_but_shipping_at_checkout": "Tartalmazza az adót. A szállítási költséget és a kedvezményeket a megrendeléskor számítjuk ki",
       "taxes_included_and_shipping_policy_html": "Tartalmazza az adót. A <a href=\"{{ link }}\">szállítási költséget<\/a> és a kedvezményeket a megrendeléskor számítjuk ki.",
       "taxes_and_shipping_at_checkout": "Az adókat, a kedvezményeket és a szállítási költséget a megrendeléskor számítjuk ki",
-      "taxes_and_shipping_policy_at_checkout_html": "Az adókat és a <a href=\"{{ link }}\">szállítási költséget<\/a> a megrendeléskor számítjuk ki",
-      "taxes_included_but_shipping_at_checkout": "Tartalmazza a megrendeléskor kiszámított adót és szállítási költséget.",
-      "taxes_included_and_shipping_policy_html": "Tartalmazza az adót. A megrendeléskor kiszámított <a href=\"{{ link }}\">szállítási költség<\/a>.",
-      "taxes_and_shipping_at_checkout": "Az adókat és a szállítási költséget a megrendeléskor számítjuk ki",
       "headings": {
         "product": "Termék",
         "price": "Ár",
@@ -309,7 +295,6 @@
       },
       "estimated_total": "Becsült végösszeg",
       "new_estimated_total": "Új becsült végösszeg"
-      }
     },
     "footer": {
       "payment": "Fizetési módok"
@@ -489,7 +474,6 @@
       "subtotal": "Részösszeg",
       "total_duties": "Vámok",
       "total_refunded": "Visszatérítve"
-      "total_duties": "Vámok"
     }
   },
   "gift_cards": {
@@ -522,17 +506,6 @@
       "send_on_label": "Küldés dátuma (nem kötelező)",
       "expanded": "Ajándékkártya címzettjének űrlapja kibontva",
       "collapsed": "Ajándékkártya címzettjének űrlapja összecsukva"
-      "title": "Íme a(z) {{ shop }} boltban levásárolható, {{ value }} értékű ajándékkártyád!",
-      "subtext": "Ajándékkártya",
-      "gift_card_code": "Ajándékkártya kódja",
-      "shop_link": "Vásárlás folytatása",
-      "remaining_html": "Egyenleg: {{ balance }}",
-      "add_to_apple_wallet": "Hozzáadás az Apple Wallethoz",
-      "qr_image_alt": "Ezt a QR-kódot beszkennelve beválthatod az ajándékkártyát.",
-      "copy_code": "Kód másolása",
-      "expired": "Lejárt",
-      "copy_code_success": "Sikeres volt a kód másolása",
-      "print_gift_card": "Nyomtatás"
     }
   }
 }
