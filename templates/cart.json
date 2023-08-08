@@ -4,8 +4,7 @@
       "type": "main-cart-items",
       "settings": {
         "padding_top": 36,
-        "padding_bottom": 36,
-        "shopping_collection": "frontpage"
+        "padding_bottom": 36
       }
     },
     "cart-footer": {
