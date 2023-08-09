@@ -1,0 +1,91 @@
+<style>
+  .promotion {}
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+  }
+  h1 {
+    font-weight: lighter;
+  }
+  p {
+    font-weight: lighter;
+    font-size: 15px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: rgb(161, 73, 73);
+    border: none;
+  }
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+</style>
+
+<div class="promotion" style="background-color: {{section.settings.promote_background_color}}; ">
+  <div class="container">
+    <h1 style="color: {{section.settings.promote_text_color}}">{{ section.settings.promote_heading }}</h1>
+    <p style="color: {{section.settings.promote_text_color}}">{{ section.settings.promote_text }}</p>
+    {% if section.settings.promote_button != "" %}
+      <button>
+        <a href="{{section.settings.promote_link}}">{{ section.settings.promote_button }}</a>
+      </button>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Promotion",
+    "tag": "section",
+    "class": "promotion",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Promo"
+      },
+      {
+        "type": "text",
+        "label": "Heading",
+        "id": "promote_heading",
+        "default": "Promotion Heading"
+      },
+      {
+        "type": "textarea",
+        "label": "Text",
+        "id": "promote_text",
+        "default": "Promotion Text"
+      },
+      {
+        "type": "text",
+        "label": "Button Label",
+        "id": "promote_button",
+        "placeholder": "Button"
+      }, {
+        "type": "url",
+        "label": "Button Link",
+        "id": "promote_link"
+      }, {
+        "type": "header",
+        "content": "Color"
+      }, {
+        "type": "color",
+        "label": "Background Color",
+        "id": "promote_background_color",
+        "default": "#f5f5f5"
+      }, {
+        "type": "color",
+        "label": "Text Color",
+        "id": "promote_text_color",
+        "default": "#000000"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Promotion"
+      }
+    ]
+  }
+{% endschema %}
