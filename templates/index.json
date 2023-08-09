@@ -107,6 +107,7 @@
         "slider_visual": "counter",
         "auto_rotate": true,
         "change_slides_speed": 5,
+        "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
@@ -182,6 +183,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-2",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -220,12 +222,24 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "d1a07c07-ef75-444a-a69f-16dbaeb2e881": {
+      "type": "promotion",
+      "settings": {
+        "promote_heading": "Get 20% off all sale items",
+        "promote_text": "Use code EXTRA at Checkout",
+        "promote_button": "Shop Now",
+        "promote_link": "shopify:\/\/collections\/all",
+        "promote_background_color": "#f5f5f5",
+        "promote_text_color": "#121212"
+      }
     }
   },
   "order": [
     "9a6b1549-9438-4070-bf55-9338e65e7ccd",
     "1d450cfd-de53-45e7-85f5-beb2353553f8",
     "62c13746-80e7-47cc-a2c6-10c12dfe167c",
-    "170bd55a-bc1a-4dee-b573-d8dd2df7d399"
+    "170bd55a-bc1a-4dee-b573-d8dd2df7d399",
+    "d1a07c07-ef75-444a-a69f-16dbaeb2e881"
   ]
 }
