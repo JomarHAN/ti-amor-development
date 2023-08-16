@@ -5,11 +5,11 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "1bad5f54-d2b2-4e6e-8bde-34df2f9709be": {
-          "type": "text",
+        "9f56b4c5-1f8a-4b67-b679-7805e64cc76c": {
+          "type": "link_list",
           "settings": {
-            "heading": "Ti Amor",
-            "subtext": ""
+            "heading": "Quick links",
+            "menu": "main-menu"
           }
         },
         "45dd97c8-c679-4e6f-a341-e9b9aeada4b7": {
@@ -28,7 +28,7 @@
         }
       },
       "block_order": [
-        "1bad5f54-d2b2-4e6e-8bde-34df2f9709be",
+        "9f56b4c5-1f8a-4b67-b679-7805e64cc76c",
         "45dd97c8-c679-4e6f-a341-e9b9aeada4b7",
         "footer-2"
       ],
@@ -36,10 +36,12 @@
         "color_scheme": "background-1",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
+        "show_policy": false,
         "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
